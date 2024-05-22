@@ -1,2 +1,4 @@
 venv/
 actions/__pycache__/
+.rasa/
+responses/__pycache__/
