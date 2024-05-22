@@ -6,13 +6,12 @@ intents:
   - affirm
   - deny
   - bot_challenge
+  # custom intent
+  - address
 
 responses:
   utter_greet:
-    - text: "Hey! How are you today?"
-
-  utter_did_that_help:
-    - text: "Can I help you?"
+    - text: "Hi there! Welcome to VNIU Store. How can I help you?"
 
   utter_goodbye:
     - text: "Bye! See you later"
@@ -20,8 +19,15 @@ responses:
   utter_iamabot:
     - text: "I am a bot"
 
+  utter_default:
+    - text: "Sorry I can't help you. Please change another topic ?"
+
   utter_ask_rephrase:
     - text: "I am sorry, I did not quite understand that. Could you rephrase it?"
+
+  utter_address:
+    - text: "Our shop is located at 17 Tan Lap, Dong Hoa, Di An, Binh Duong. We are open from 9 AM to 9 PM every day. Looking forward to your visit!"
+    - text: "You can find us at 17 Tan Lap, Dong Hoa, Di An, Binh Duong."
 
 session_config:
   session_expiration_time: 60

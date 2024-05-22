@@ -1,10 +1,20 @@
 version: "3.1"
 
 rules:
+  - rule: Say greet anytime the user says hello
+    steps:
+      - intent: greet
+      - action: utter_greet
+
   - rule: Say goodbye anytime the user says goodbye
     steps:
       - intent: goodbye
       - action: utter_goodbye
+
+  - rule: Say address
+    steps:
+      - intent: address
+      - action: utter_address
 
   - rule: Say 'I am a bot' anytime the user challenges
     steps:

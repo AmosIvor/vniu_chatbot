@@ -3,55 +3,63 @@ version: "3.1"
 nlu:
   - intent: greet
     examples: |
-      - hey
-      - hello
-      - hi
-      - hello there
-      - good morning
-      - good evening
-      - moin
-      - hey there
-      - let's go
-      - hey dude
-      - goodmorning
-      - goodevening
-      - good afternoon
+      - Hey
+      - Hello
+      - Hi
+      - Hello there
+      - Good morning
+      - Good evening
+      - Moin
+      - Hey there
+      - Let's go
+      - Hey dude
+      - Goodmorning
+      - Goodevening
+      - Good afternoon
 
   - intent: goodbye
     examples: |
-      - cu
-      - good by
-      - cee you later
-      - good night
-      - bye
-      - goodbye
-      - have a nice day
-      - see you around
-      - bye bye
-      - see you later
+      - Cu
+      - Good by
+      - Cee you later
+      - Good night
+      - Bye
+      - Goodbye
+      - Have a nice day
+      - See you around
+      - Bye bye
+      - See you later
 
   - intent: affirm
     examples: |
-      - yes
-      - y
-      - indeed
-      - of course
-      - that sounds good
-      - correct
+      - Yes
+      - Y
+      - Indeed
+      - Of course
+      - That sounds good
+      - Correct
 
   - intent: deny
     examples: |
-      - no
-      - n
-      - never
+      - No
+      - N
+      - Never
       - I don't think so
-      - don't like that
-      - no way
-      - not really
+      - Don't like that
+      - No way
+      - Not really
 
   - intent: bot_challenge
     examples: |
-      - are you a bot?
-      - are you a human?
-      - am I talking to a bot?
-      - am I talking to a human?
+      - Are you a bot?
+      - Are you a human?
+      - Am I talking to a bot?
+      - Am I talking to a human?
+
+  - intent: address
+    examples: |
+      - What is the address of your shop?
+      - Can you give me the shop's address?
+      - Where are you located?
+      - address of shop
+      - Tell me about shop's address
