@@ -1,22 +1,17 @@
 version: "3.1"
 
 rules:
-  - rule: Say greet anytime the user says hello
+  - rule: Say greet
     steps:
       - intent: greet
       - action: utter_greet
 
-  - rule: Say goodbye anytime the user says goodbye
+  - rule: Say goodbye
     steps:
       - intent: goodbye
       - action: utter_goodbye
 
-  - rule: Say address
-    steps:
-      - intent: address
-      - action: utter_address
-
-  - rule: Say 'I am a bot' anytime the user challenges
+  - rule: Say I am bot
     steps:
       - intent: bot_challenge
       - action: utter_iamabot
@@ -26,3 +21,58 @@ rules:
       - intent: nlu_fallback
       - action: action_two_stage_fallback
       - active_loop: action_two_stage_fallback
+
+  - rule: Say address
+    steps:
+      - intent: address
+      - action: utter_address
+
+  - rule: Say washing
+    steps:
+      - intent: washing
+      - action: utter_washing
+
+  - rule: Say quality guarantee
+    steps:
+      - intent: quality_guarantee
+      - action: utter_quality_guarantee
+
+  - rule: Say account issues
+    steps:
+      - intent: account_issues
+      - action: utter_account_issues
+
+  - rule: Say promotion
+    steps:
+      - intent: promotion
+      - action: utter_promotion
+
+  - rule: Say payment method
+    steps:
+      - intent: payment_method
+      - action: utter_payment_method
+
+  - rule: Say order status
+    steps:
+      - intent: order_status
+      - action: utter_order_status
+
+  - rule: Say order cancellation
+    steps:
+      - intent: order_cancellation
+      - action: utter_order_cancellation
+
+  - rule: Say feedback
+    steps:
+      - intent: feedback
+      - action: utter_feedback
+
+  - rule: Say product information
+    steps:
+      - intent: product_information
+      - action: utter_product_information
+
+  - rule: Say product size
+    steps:
+      - intent: product_size
+      - action: utter_product_size

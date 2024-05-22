@@ -1,0 +1,20 @@
+version: "3.1"
+
+nlu:
+  - intent: product_information
+    examples: |
+      - Can you tell me more about this product?
+      - What are the features of this item?
+      - Product details
+      - Product Information
+      - Information about this item
+      - Specifications of this product
+      - Give me some informations about this product
+
+  - intent: product_size
+    examples: |
+      - What sizes are available for this product?
+      - Can you tell me about the sizes?
+      - What size should I choose?
+      - Size options
+      - Available sizes

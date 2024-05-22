@@ -8,6 +8,16 @@ intents:
   - bot_challenge
   # custom intent
   - address
+  - washing
+  - quality_guarantee
+  - account_issues
+  - promotion
+  - payment_method
+  - order_status
+  - order_cancellation
+  - feedback
+  - product_information
+  - product_size
 
 responses:
   utter_greet:
@@ -25,9 +35,41 @@ responses:
   utter_ask_rephrase:
     - text: "I am sorry, I did not quite understand that. Could you rephrase it?"
 
+  # Custom
   utter_address:
     - text: "Our shop is located at 17 Tan Lap, Dong Hoa, Di An, Binh Duong. We are open from 9 AM to 9 PM every day. Looking forward to your visit!"
     - text: "You can find us at 17 Tan Lap, Dong Hoa, Di An, Binh Duong."
+
+  utter_washing:
+    - text: "Wash on a gentle cycle with cold water and mild detergent. Avoid bleach. Air dry or tumble dry on low heat. Check the care label for details."
+
+  utter_quality_guarantee:
+    - text: "We offer a 100% satisfaction guarantee. Return within 30 days for a refund or exchange if not satisfied. We conduct regular quality checks to ensure high standards."
+
+  utter_account_issues:
+    - text: "If you're having trouble logging into your account, please contact our customer support team."
+
+  utter_promotion:
+    - text: "We frequently offer discounts and promotions. Check the 'Promotions' section on our app to stay updated on the latest offers."
+
+  utter_payment_method:
+    - text: "We accept various payment methods, including PayPal, and bank transfers like VNPAY. You can select your preferred payment method at checkout."
+
+  utter_order_status:
+    - text: "You can check your order status by logging into your account and visiting the 'Order History' section. If you need further assistance, please provide your order number."
+
+  utter_order_cancellation:
+    - text: "Log into your account and go to 'Order History' to cancel if the status is PENDING. If the order is processed or shipped, you cannot cancel."
+
+  utter_feedback:
+    - text: "You can view product feedback by navigating to the product details page. Scroll down to find the 'Feedback' or 'Customer Reviews' section, where you can read reviews and ratings from other customers."
+
+  utter_product_information:
+    - text: "You can find detailed information about the product, including specifications, features, and customer reviews, on the product page. If you have specific questions, feel free to ask!"
+
+  utter_product_size:
+    - text: "To determine the size, you can check the size chart provided in the product images. Alternatively, when you select a size on the product details page, it will display the corresponding measurements."
+      image: "./images/product_size.png"
 
 session_config:
   session_expiration_time: 60

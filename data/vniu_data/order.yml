@@ -1,0 +1,18 @@
+version: "3.1"
+
+nlu:
+  - intent: order_status
+    examples: |
+      - What's the status of my order?
+      - Can you check my order status?
+      - Where is my order?
+      - Track my order?
+      - Order status
+
+  - intent: order_cancellation
+    examples: |
+      - How do I cancel my order?
+      - I want to cancel my purchase
+      - Cancel my order
+      - Can I cancel my order
+      - Order cancellation process
