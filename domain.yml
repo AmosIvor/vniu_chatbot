@@ -69,7 +69,7 @@ responses:
 
   utter_product_size:
     - text: "To determine the size, you can check the size chart provided in the product images. Alternatively, when you select a size on the product details page, it will display the corresponding measurements."
-      image: "./images/product_size.png"
+      image: "http://res.cloudinary.com/dq9ufe5cc/image/upload/v1716990043/product_size_p3qco9.png"
 
 session_config:
   session_expiration_time: 60
