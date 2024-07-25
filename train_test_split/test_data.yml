@@ -1,0 +1,171 @@
+version: "3.1"
+nlu:
+- intent: bot_challenge
+  examples: |
+    - Are you a human?
+- intent: thank
+  examples: |
+    - Thanks
+    - That's very helpful, thanks
+- intent: help
+  examples: |
+    - What can you do?
+- intent: order_status
+  examples: |
+    - Can you check my order status?
+- intent: order_tracking
+  examples: |
+    - How do I follow my package?
+    - Can you give me tracking information?
+- intent: order_cancellation
+  examples: |
+    - I need to cancel my order immediately
+- intent: order_modification
+  examples: |
+    - I need to update my shipping address
+    - Can I add items to my existing order?
+- intent: return_policy
+  examples: |
+    - How long do I have to return an item?
+- intent: return_process
+  examples: |
+    - Do I need a return authorization?
+- intent: exchange_process
+  examples: |
+    - What's your exchange policy?
+    - How can I exchange an item?
+- intent: delivery_time
+  examples: |
+    - When will my package arrive?
+- intent: payment_methods
+  examples: |
+    - Do you accept credit cards?
+    - Do you offer any buy now, pay later options?
+- intent: payment_issues
+  examples: |
+    - I'm having trouble completing my purchase
+- intent: discount_inquiries
+  examples: |
+    - Can I get a discount for bulk orders?
+- intent: promo_code_application
+  examples: |
+    - How do I use a promo code?
+    - My promo code isn't working, what should I do?
+- intent: account_creation
+  examples: |
+    - Can I create an account using my social media profile?
+- intent: account_login
+  examples: |
+    - Why am I being logged out automatically?
+    - I forgot my username, how can I log in?
+- intent: wishlist_management
+  examples: |
+    - How do I add items to my wishlist?
+- intent: feedback
+  examples: |
+    - Can I rate the customer service I received?
+- intent: customer_service_contact
+  examples: |
+    - Is there an online form for customer inquiries?
+    - What are your customer service hours?
+- intent: store_locations
+  examples: |
+    - Do you have a store near me?
+- intent: care_instructions
+  examples: |
+    - Is this product dry clean only?
+    - Are there special care instructions for this material?
+- intent: material_information
+  examples: |
+    - Are your products eco-friendly?
+- intent: gift_options
+  examples: |
+    - Are there any special packaging options for gifts?
+- intent: gift_cards
+  examples: |
+    - Do you sell gift cards?
+    - Can I check my gift card balance?
+- intent: sale_inquiries
+  examples: |
+    - Can you tell me about current promotions?
+- intent: new_arrivals
+  examples: |
+    - Do you have a 'New Arrivals' section?
+    - Where can I find your latest collections?
+- intent: sustainability_practices
+  examples: |
+    - What are your eco-friendly initiatives?
+- intent: custom_tailoring
+  examples: |
+    - Do you offer custom tailoring services?
+- intent: bulk_orders
+  examples: |
+    - What's your policy on wholesale purchases?
+    - How do I request a quote for a large order?
+- intent: international_shipping
+  examples: |
+    - Which countries do you deliver to?
+- intent: social_media_channels
+  examples: |
+    - Is there a Twitter account for your brand?
+    - Do you post content on TikTok?
+- intent: password_reset
+  examples: |
+    - I forgot my password
+- intent: brand_information
+  examples: |
+    - What are your brand values?
+- intent: loyalty_program
+  examples: |
+    - What can I redeem loyalty points for?
+    - Can I earn points on my purchases?
+- intent: product_search
+  examples: |
+    - Can you help me find a particular item?
+- intent: product_information
+  examples: |
+    - What are the features of this item?
+    - Can you tell me more about this product?
+- intent: product_availability
+  examples: |
+    - Can I get this in my size?
+- intent: product_price
+  examples: |
+    - What's the current price for this product?
+- intent: product_comparison
+  examples: |
+    - Help me choose between these options
+    - Can you show me a side-by-side comparison?
+- intent: product_recommendations
+  examples: |
+    - What's popular right now?
+- intent: shipping_information
+  examples: |
+    - Which courier do you use for shipping?
+    - Do you offer international shipping?
+- intent: shipping_cost
+  examples: |
+    - How much is shipping?
+- intent: size_guide
+  examples: |
+    - Can you help me with sizing?
+- intent: size_availability
+  examples: |
+    - Do you have this in my size?
+    - What sizes are available for this item?
+- intent: color_options
+  examples: |
+    - What colors does this come in?
+- intent: goodbye
+  examples: |
+    - Cu
+    - Cee you later
+- intent: style_advice
+  examples: |
+    - How do I dress for my age?
+    - What are some timeless fashion pieces?
+- intent: greet
+  examples: |
+    - Hey dude
+    - Good afternoon
+    - Goodmorning
