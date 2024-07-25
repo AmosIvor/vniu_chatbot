@@ -1,0 +1,22 @@
+version: "3.1"
+
+nlu:
+  - intent: shipping_information
+    examples: |
+      - What are your shipping options?
+      - Do you offer international shipping?
+      - Which courier do you use for shipping?
+      - Is there a way to track my shipment?
+      - Do you ship to PO boxes?
+      - What's your shipping policy?
+      - Can I choose a specific shipping method?
+
+  - intent: shipping_cost
+    examples: |
+      - How much is shipping?
+      - Is there free shipping?
+      - What's the cost for express delivery?
+      - Do you charge extra for international shipping?
+      - Is there a minimum order for free shipping?
+      - How are shipping costs calculated?
+      - Can you tell me the shipping fee for my order?

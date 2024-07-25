@@ -4,15 +4,39 @@ nlu:
   - intent: order_status
     examples: |
       - What's the status of my order?
+      - Has my order been processed?
+      - When will my order be ready?
+      - Is my order still pending?
       - Can you check my order status?
-      - Where is my order?
-      - Track my order?
-      - Order status
+      - Has my order been shipped yet?
+      - I want to know about my recent order
+
+  - intent: order_tracking
+    examples: |
+      - How can I track my order?
+      - Where is my package?
+      - Can you give me tracking information?
+      - I need to track my shipment
+      - What's the tracking number for my order?
+      - How do I follow my package?
+      - Is there a way to see where my order is?
 
   - intent: order_cancellation
     examples: |
       - How do I cancel my order?
-      - I want to cancel my purchase
-      - Cancel my order
-      - Can I cancel my order
-      - Order cancellation process
+      - Can I cancel an order I just placed?
+      - I want to cancel my recent purchase
+      - Is it possible to cancel my order?
+      - What's the process for cancelling an order?
+      - I need to cancel my order immediately
+      - Can you help me cancel my order?
+
+  - intent: order_modification
+    examples: |
+      - Can I change my order?
+      - How do I modify my order?
+      - I need to update my shipping address
+      - Can I add items to my existing order?
+      - Is it possible to change the size in my order?
+      - I want to remove an item from my order
+      - Can you help me change something in my order?

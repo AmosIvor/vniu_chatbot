@@ -1,0 +1,295 @@
+version: "3.1"
+
+nlu:
+  - intent: return_policy
+    examples: |
+      - What's your return policy?
+      - How long do I have to return an item?
+      - Are returns free?
+      - Can I return a sale item?
+      - What are the conditions for returns?
+      - Do you accept returns without tags?
+      - Is there a restocking fee for returns?
+
+  - intent: return_process
+    examples: |
+      - How do I return an item?
+      - What's the process for returning?
+      - Can you guide me through a return?
+      - Where do I send my return?
+      - Do I need a return authorization?
+      - How long does the return process take?
+      - What information do I need to make a return?
+
+  - intent: exchange_process
+    examples: |
+      - How can I exchange an item?
+      - Can I swap for a different size?
+      - What's your exchange policy?
+      - Is it possible to exchange for a different color?
+      - Do you charge for exchanges?
+      - How long do I have to make an exchange?
+      - Can you walk me through the exchange process?
+
+  - intent: delivery_time
+    examples: |
+      - How long will it take to receive my order?
+      - What's the estimated delivery time?
+      - When will my package arrive?
+      - Do you offer next-day delivery?
+      - How long does international shipping take?
+      - Can I get an estimated delivery date?
+      - What's the timeframe for standard shipping?
+
+  - intent: payment_methods
+    examples: |
+      - What payment methods do you accept?
+      - Can I pay with PayPal?
+      - Do you accept credit cards?
+      - Is it possible to pay with Apple Pay?
+      - Can I use a gift card for payment?
+      - Do you offer any buy now, pay later options?
+      - Is it safe to enter my credit card information?
+
+  - intent: payment_issues
+    examples: |
+      - My payment was declined, what should I do?
+      - There's an error with my payment, can you help?
+      - Why isn't my credit card working?
+      - I'm having trouble completing my purchase
+      - My payment didn't go through, what now?
+      - Can you check if there's an issue with my payment?
+      - What should I do if my transaction fails?
+
+  - intent: discount_inquiries
+    examples: |
+      - Are there any current discounts?
+      - Do you offer student discounts?
+      - Is there a sale going on?
+      - How can I get a discount on my purchase?
+      - Are there any special offers available?
+      - Do you have any promotional deals?
+      - Can I get a discount for bulk orders?
+
+  - intent: promo_code_application
+    examples: |
+      - How do I use a promo code?
+      - Where do I enter the coupon code?
+      - My promo code isn't working, what should I do?
+      - Can I use multiple promo codes?
+      - Is there a minimum purchase for using promo codes?
+      - Do promo codes work on sale items?
+      - I forgot to add my promo code, can it be applied after purchase?
+
+  - intent: account_creation
+    examples: |
+      - How do I create an account?
+      - What are the benefits of having an account?
+      - Is it necessary to create an account to make a purchase?
+      - What information do I need to sign up?
+      - Can I create an account using my social media profile?
+      - Is there a fee for creating an account?
+      - How long does it take to set up an account?
+
+  - intent: account_login
+    examples: |
+      - How do I log into my account?
+      - I can't sign in to my account, what should I do?
+      - Where is the login button?
+      - Can I log in using my email address?
+      - Is there a mobile app I can use to log in?
+      - I forgot my username, how can I log in?
+      - Why am I being logged out automatically?
+
+  - intent: wishlist_management
+    examples: |
+      - How do I add items to my wishlist?
+      - Where can I find my saved items?
+      - Can I share my wishlist with others?
+      - Is there a limit to how many items I can add to my wishlist?
+      - How long do items stay in my wishlist?
+      - Can I move items from my wishlist to my cart?
+      - Will I be notified if an item in my wishlist goes on sale?
+
+  - intent: feedback
+    examples: |
+      - How can I leave a review for a product?
+      - Where do I submit feedback about my shopping experience?
+      - Can I rate the customer service I received?
+      - Is there a way to suggest improvements to your website?
+      - How do you handle negative reviews?
+      - Do you respond to customer feedback?
+      - Can I edit or delete my review after posting it?
+
+  - intent: customer_service_contact
+    examples: |
+      - How can I contact customer service?
+      - What's your customer support phone number?
+      - Do you have live chat support?
+      - What are your customer service hours?
+      - Can I email your support team?
+      - Is there an online form for customer inquiries?
+      - How long does it usually take to get a response from customer service?
+
+  - intent: store_locations
+    examples: |
+      - Where are your physical stores located?
+      - Do you have a store near me?
+      - What are the store hours?
+      - Can I pick up my online order in-store?
+      - Are your store locations listed on your website?
+      - Do all your stores carry the same products?
+      - Is there a store locator tool on your website?
+
+  - intent: care_instructions
+    examples: |
+      - How do I care for this product?
+      - What are the washing instructions for this item?
+      - Can I machine wash this?
+      - Is this product dry clean only?
+      - How should I store this item?
+      - Are there special care instructions for this material?
+      - Can you provide maintenance tips for this product?
+
+  - intent: material_information
+    examples: |
+      - What materials is this product made of?
+      - Is this product made from sustainable materials?
+      - Are your products eco-friendly?
+      - Do you use organic materials?
+      - Is this product vegan?
+      - What's the fabric composition of this item?
+      - Are any of your materials ethically sourced?
+
+  - intent: gift_options
+    examples: |
+      - Do you offer gift wrapping?
+      - Can I add a gift message to my order?
+      - How do I mark an item as a gift?
+      - Are there any special packaging options for gifts?
+      - Can I send a gift directly to the recipient?
+      - Do you offer gift receipts?
+      - Is there an extra charge for gift services?
+
+  - intent: gift_cards
+    examples: |
+      - Do you sell gift cards?
+      - How can I purchase a gift card?
+      - Are your gift cards available in physical and digital formats?
+      - Can I check my gift card balance?
+      - Do your gift cards expire?
+      - How do I redeem a gift card?
+      - Can I use multiple gift cards for one purchase?
+
+  - intent: sale_inquiries
+    examples: |
+      - Are there any sales going on right now?
+      - When is your next sale?
+      - Do you have any clearance items?
+      - Are there any special discounts this week?
+      - How often do you have sales?
+      - Can you tell me about current promotions?
+      - Where can I find your sale items?
+
+  - intent: new_arrivals
+    examples: |
+      - What are your newest products?
+      - When do you get new items in stock?
+      - How often do you update your inventory?
+      - Where can I find your latest collections?
+      - Are there any new releases this week?
+      - Do you have a 'New Arrivals' section?
+      - Can you tell me about your most recent products?
+
+  - intent: sustainability_practices
+    examples: |
+      - What are your eco-friendly initiatives?
+      - Do you use sustainable packaging?
+      - Are your products environmentally friendly?
+      - What's your company's stance on sustainability?
+      - Do you have any recycling programs?
+      - How do you reduce your carbon footprint?
+      - Are your manufacturing processes sustainable?
+
+  - intent: custom_tailoring
+    examples: |
+      - Do you offer custom tailoring services?
+      - Can I get my clothes altered?
+      - How much does it cost to tailor an item?
+      - What's the process for custom-made clothing?
+      - Do you have made-to-measure options?
+      - Can you adjust the length of pants or sleeves?
+      - Is it possible to customize the fit of your clothes?
+
+  - intent: bulk_orders
+    examples: |
+      - Do you offer discounts for large orders?
+      - Can I place a bulk order for my business?
+      - What's your policy on wholesale purchases?
+      - Is there a minimum quantity for bulk orders?
+      - How do I request a quote for a large order?
+      - Do you have special pricing for corporate orders?
+      - Can you handle large volume orders?
+
+  - intent: international_shipping
+    examples: |
+      - Do you ship internationally?
+      - Which countries do you deliver to?
+      - How much does shipping cost to [country name]?
+      - What's the delivery time for international orders?
+      - Do I have to pay customs fees?
+      - Is tracking available for international shipments?
+      - Can I return items if I'm overseas?
+
+  - intent: social_media_channels
+    examples: |
+      - Are you on social media?
+      - What social media platforms do you use?
+      - Can I follow you on Instagram?
+      - Do you have a Facebook page?
+      - Is there a Twitter account for your brand?
+      - Where can I find your social media handles?
+      - Do you post content on TikTok?
+
+  - intent: password_reset
+    examples: |
+      - I forgot my password
+      - How do I reset my password?
+      - Can't log in to my account
+      - Need help resetting my password
+      - Where can I change my password?
+      - Lost access to my account
+      - Password recovery options
+
+  - intent: brand_information
+    examples: |
+      - Tell me about your company
+      - What's the story behind your brand?
+      - Who founded your company?
+      - What are your brand values?
+      - How long has your company been in business?
+      - What makes your brand unique?
+      - Can you share some company history?
+
+  - intent: loyalty_program
+    examples: |
+      - Do you have a rewards program?
+      - How does your loyalty program work?
+      - What are the benefits of joining your loyalty program?
+      - How do I sign up for your rewards program?
+      - Can I earn points on my purchases?
+      - What can I redeem loyalty points for?
+      - Is there a VIP program for frequent shoppers?
+
+  - intent: style_advice
+    examples: |
+      - Can you help me choose an outfit?
+      - What's trendy this season?
+      - How should I style [product name]?
+      - What goes well with [item]?
+      - I need fashion advice for [occasion]
+      - How can I create a capsule wardrobe?
+      - What are some timeless fashion pieces?
+      - Give me style tips for [body type]
+      - How do I dress for my age?
+      - What colors are in fashion right now?

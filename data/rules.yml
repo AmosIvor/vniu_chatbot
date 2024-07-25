@@ -11,6 +11,11 @@ rules:
       - intent: goodbye
       - action: utter_goodbye
 
+  - rule: Say thank
+    steps:
+      - intent: thank
+      - action: utter_thank
+
   - rule: Say I am bot
     steps:
       - intent: bot_challenge
@@ -22,57 +27,223 @@ rules:
       - action: action_two_stage_fallback
       - active_loop: action_two_stage_fallback
 
-  - rule: Say address
+  # custom rule
+  - rule: Say product search
     steps:
-      - intent: address
-      - action: utter_address
-
-  - rule: Say washing
-    steps:
-      - intent: washing
-      - action: utter_washing
-
-  - rule: Say quality guarantee
-    steps:
-      - intent: quality_guarantee
-      - action: utter_quality_guarantee
-
-  - rule: Say account issues
-    steps:
-      - intent: account_issues
-      - action: utter_account_issues
-
-  - rule: Say promotion
-    steps:
-      - intent: promotion
-      - action: utter_promotion
-
-  - rule: Say payment method
-    steps:
-      - intent: payment_method
-      - action: utter_payment_method
-
-  - rule: Say order status
-    steps:
-      - intent: order_status
-      - action: utter_order_status
-
-  - rule: Say order cancellation
-    steps:
-      - intent: order_cancellation
-      - action: utter_order_cancellation
-
-  - rule: Say feedback
-    steps:
-      - intent: feedback
-      - action: utter_feedback
+      - intent: product_search
+      - action: utter_product_search
 
   - rule: Say product information
     steps:
       - intent: product_information
       - action: utter_product_information
 
-  - rule: Say product size
+  - rule: Say product availability
     steps:
-      - intent: product_size
-      - action: utter_product_size
+      - intent: product_availability
+      - action: utter_product_availability
+
+  - rule: Say product price
+    steps:
+      - intent: product_price
+      - action: utter_product_price
+
+  - rule: Say product comparison
+    steps:
+      - intent: product_comparison
+      - action: utter_product_comparison
+
+  - rule: Say product recommendations
+    steps:
+      - intent: product_recommendations
+      - action: utter_product_recommendations
+
+  - rule: Say size guide
+    steps:
+      - intent: size_guide
+      - action: utter_size_guide
+
+  - rule: Say size availability
+    steps:
+      - intent: size_availability
+      - action: utter_size_availability
+
+  - rule: Say color options
+    steps:
+      - intent: color_options
+      - action: utter_color_options
+
+  - rule: Say order status
+    steps:
+      - intent: order_status
+      - action: utter_order_status
+
+  - rule: Say order tracking
+    steps:
+      - intent: order_tracking
+      - action: utter_order_tracking
+
+  - rule: Say order cancellation
+    steps:
+      - intent: order_cancellation
+      - action: utter_order_cancellation
+
+  - rule: Say order modification
+    steps:
+      - intent: order_modification
+      - action: utter_order_modification
+
+  - rule: Say return policy
+    steps:
+      - intent: return_policy
+      - action: utter_return_policy
+
+  - rule: Say return process
+    steps:
+      - intent: return_process
+      - action: utter_return_process
+
+  - rule: Say exchange process
+    steps:
+      - intent: exchange_process
+      - action: utter_exchange_process
+
+  - rule: Say shipping information
+    steps:
+      - intent: shipping_information
+      - action: utter_shipping_information
+
+  - rule: Say shipping cost
+    steps:
+      - intent: shipping_cost
+      - action: utter_shipping_cost
+
+  - rule: Say delivery time
+    steps:
+      - intent: delivery_time
+      - action: utter_delivery_time
+
+  - rule: Say payment methods
+    steps:
+      - intent: payment_methods
+      - action: utter_payment_methods
+
+  - rule: Say payment issues
+    steps:
+      - intent: payment_issues
+      - action: utter_payment_issues
+
+  - rule: Say discount inquiries
+    steps:
+      - intent: discount_inquiries
+      - action: utter_discount_inquiries
+
+  - rule: Say promo code application
+    steps:
+      - intent: promo_code_application
+      - action: utter_promo_code_application
+
+  - rule: Say account creation
+    steps:
+      - intent: account_creation
+      - action: utter_account_creation
+
+  - rule: Say account login
+    steps:
+      - intent: account_login
+      - action: utter_account_login
+
+  - rule: Say password reset
+    steps:
+      - intent: password_reset
+      - action: utter_password_reset
+
+  - rule: Say wishlist management
+    steps:
+      - intent: wishlist_management
+      - action: utter_wishlist_management
+
+  - rule: Say feedback
+    steps:
+      - intent: feedback
+      - action: utter_feedback
+
+  - rule: Say customer service contact
+    steps:
+      - intent: customer_service_contact
+      - action: utter_customer_service_contact
+
+  - rule: Say store locations
+    steps:
+      - intent: store_locations
+      - action: utter_store_locations
+
+  - rule: Say brand information
+    steps:
+      - intent: brand_information
+      - action: utter_brand_information
+
+  - rule: Say care instructions
+    steps:
+      - intent: care_instructions
+      - action: utter_care_instructions
+
+  - rule: Say material information
+    steps:
+      - intent: material_information
+      - action: utter_material_information
+
+  - rule: Say gift options
+    steps:
+      - intent: gift_options
+      - action: utter_gift_options
+
+  - rule: Say gift cards
+    steps:
+      - intent: gift_cards
+      - action: utter_gift_cards
+
+  - rule: Say loyalty program
+    steps:
+      - intent: loyalty_program
+      - action: utter_loyalty_program
+
+  - rule: Say sale inquiries
+    steps:
+      - intent: sale_inquiries
+      - action: utter_sale_inquiries
+
+  - rule: Say new arrivals
+    steps:
+      - intent: new_arrivals
+      - action: utter_new_arrivals
+
+  - rule: Say sustainability practices
+    steps:
+      - intent: sustainability_practices
+      - action: utter_sustainability_practices
+
+  - rule: Say style advice
+    steps:
+      - intent: style_advice
+      - action: utter_style_advice
+
+  - rule: Say custom tailoring
+    steps:
+      - intent: custom_tailoring
+      - action: utter_custom_tailoring
+
+  - rule: Say bulk orders
+    steps:
+      - intent: bulk_orders
+      - action: utter_bulk_orders
+
+  - rule: Say international shipping
+    steps:
+      - intent: international_shipping
+      - action: utter_international_shipping
+
+  - rule: Say social media channels
+    steps:
+      - intent: social_media_channels
+      - action: utter_social_media_channels

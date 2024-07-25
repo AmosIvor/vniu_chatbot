@@ -3,28 +3,66 @@ version: "3.1"
 intents:
   - greet
   - goodbye
-  - affirm
-  - deny
+  - thank
+  - help
   - bot_challenge
-  # custom intent
-  - address
-  - washing
-  - quality_guarantee
-  - account_issues
-  - promotion
-  - payment_method
-  - order_status
-  - order_cancellation
-  - feedback
+  - product_search
   - product_information
-  - product_size
+  - product_availability
+  - product_price
+  - product_comparison
+  - product_recommendations
+  - size_guide
+  - size_availability
+  - color_options
+  - order_status
+  - order_tracking
+  - order_cancellation
+  - order_modification
+  - return_policy
+  - return_process
+  - exchange_process
+  - shipping_information
+  - shipping_cost
+  - delivery_time
+  - payment_methods
+  - payment_issues
+  - discount_inquiries
+  - promo_code_application
+  - account_creation
+  - account_login
+  - password_reset
+  - wishlist_management
+  - feedback
+  - customer_service_contact
+  - store_locations
+  - brand_information
+  - care_instructions
+  - material_information
+  - gift_options
+  - gift_cards
+  - loyalty_program
+  - sale_inquiries
+  - new_arrivals
+  - sustainability_practices
+  - style_advice
+  - custom_tailoring
+  - bulk_orders
+  - international_shipping
+  - social_media_channels
 
 responses:
   utter_greet:
     - text: "Hi there! Welcome to VNIU Store. How can I help you?"
 
   utter_goodbye:
-    - text: "Bye! See you later"
+    - text: "Thank you for visiting our online store. Have a great day, and we hope to see you again soon!"
+
+  utter_thank:
+    - text: "You're welcome! I'm glad I could help. Is there anything else you need assistance with?"
+
+  utter_help:
+    - text: "I'd be happy to help! I can assist you with product searches, provide information about our policies, help with sizing, answer questions about orders and shipping, and more. What specific area do you need help with?"
 
   utter_iamabot:
     - text: "I am a bot"
@@ -36,40 +74,138 @@ responses:
     - text: "I am sorry, I did not quite understand that. Could you rephrase it?"
 
   # Custom
-  utter_address:
-    - text: "Our shop is located at 17 Tan Lap, Dong Hoa, Di An, Binh Duong. We are open from 9 AM to 9 PM every day. Looking forward to your visit!"
-    - text: "You can find us at 17 Tan Lap, Dong Hoa, Di An, Binh Duong."
-
-  utter_washing:
-    - text: "Wash on a gentle cycle with cold water and mild detergent. Avoid bleach. Air dry or tumble dry on low heat. Check the care label for details."
-
-  utter_quality_guarantee:
-    - text: "We offer a 100% satisfaction guarantee. Return within 30 days for a refund or exchange if not satisfied. We conduct regular quality checks to ensure high standards."
-
-  utter_account_issues:
-    - text: "If you're having trouble logging into your account, please contact our customer support team."
-
-  utter_promotion:
-    - text: "We frequently offer discounts and promotions. Check the 'Promotions' section on our app to stay updated on the latest offers."
-
-  utter_payment_method:
-    - text: "We accept various payment methods, including PayPal, and bank transfers like VNPAY. You can select your preferred payment method at checkout."
-
-  utter_order_status:
-    - text: "You can check your order status by logging into your account and visiting the 'Order History' section. If you need further assistance, please provide your order number."
-
-  utter_order_cancellation:
-    - text: "Log into your account and go to 'Order History' to cancel if the status is PENDING. If the order is processed or shipped, you cannot cancel."
-
-  utter_feedback:
-    - text: "You can view product feedback by navigating to the product details page. Scroll down to find the 'Feedback' or 'Customer Reviews' section, where you can read reviews and ratings from other customers."
+  utter_product_search:
+    - text: "To search for a specific product, use the search bar at the top of our website. You can enter keywords, product names, or categories. You can also use filters on the left side of the search results page to narrow down your options by size, color, price range, and more. If you need help finding something specific, feel free to describe it to me, and I'll do my best to assist you."
 
   utter_product_information:
-    - text: "You can find detailed information about the product, including specifications, features, and customer reviews, on the product page. If you have specific questions, feel free to ask!"
+    - text: "I'd be happy to provide more information about the product. Could you please specify which item you're interested in? Once you do, I can give you details about its materials, available sizes, color options, care instructions, and other relevant features."
 
-  utter_product_size:
+  utter_product_availability:
+    - text: "I can certainly check the availability for you. Could you please provide the specific product name or item number you're inquiring about? Once you do, I'll be able to give you up-to-date information on its stock status, available sizes, and potential restock dates if it's currently out of stock."
+
+  utter_product_price:
+    - text: "I'd be glad to help you with pricing information. Could you please specify which product you're interested in? Once you do, I can provide you with its current price, any applicable discounts, and information about ongoing sales or promotions that might apply to that item."
+
+  utter_product_comparison:
+    - text: "I'd be happy to help you compare products. Could you please specify which items you'd like to compare? Once you do, I can provide a side-by-side comparison of their features, materials, prices, and customer ratings to help you make an informed decision."
+
+  utter_product_recommendations:
+    - text: "I'd love to offer some product recommendations! To provide the best suggestions, could you tell me a bit more about what you're looking for? For example, are you interested in a specific type of clothing, a particular occasion, or a certain style? The more information you can provide, the better I can tailor my recommendations to your preferences."
+
+  utter_size_guide:
     - text: "To determine the size, you can check the size chart provided in the product images. Alternatively, when you select a size on the product details page, it will display the corresponding measurements."
       image: "http://res.cloudinary.com/dq9ufe5cc/image/upload/v1716990043/product_size_p3qco9.png"
+
+  utter_color_options:
+    - text: "I'd be glad to help you with color options. Could you please specify which product you're inquiring about? Once you do, I can provide you with all the available color choices for that item, including any seasonal or limited edition colors that might be available."
+
+  utter_order_status:
+    - text: "I'd be happy to check on the status of your order. Could you please provide your order number? Once I have that, I can give you up-to-date information on whether your order has been processed, shipped, or if there are any issues that need to be addressed."
+
+  utter_order_tracking:
+    - text: "Certainly! I can help you track your order. Could you please provide your order number? Once I have that, I can give you the tracking number and a link to follow your package's journey. You'll be able to see estimated delivery dates and the current location of your shipment."
+
+  utter_order_cancellation:
+    - text: "I can help you cancel your order. Please provide your order number. If it hasn't shipped, we can cancel it. If it has shipped, we may need to process a return instead. What's your order number?"
+
+  utter_order_modification:
+    - text: "I can help modify your order if possible. What's your order number and the changes you want to make? Note that changes may not be possible if the order has been processed for shipping."
+
+  utter_return_policy:
+    - text: "Our policy allows returns within 30 days of purchase for most items in original condition. Sale items may have different conditions. Returns are free with our prepaid label. Some items like underwear can't be returned. Need more details?"
+
+  utter_return_process:
+    - text: "To return an item: 1) Initiate return online or contact customer service. 2) Get return authorization and prepaid label. 3) Pack item and attach label. 4) Drop off at carrier. Refund processed in 7-10 business days after we receive it. Need more info?"
+
+  utter_exchange_process:
+    - text: "To exchange: 1) Start online/contact us. 2) Get label. 3) Return original item. 4) We'll ship new item once received. Free within 30 days. New item must be in stock. Need more info?"
+
+  utter_shipping_information:
+    - text: "We offer standard, express, and international shipping via FedEx and UPS. You'll get a tracking number. We ship to most locations, including PO boxes. Some restrictions may apply. Specific questions about your location?"
+
+  utter_shipping_cost:
+    - text: "Costs vary by method, destination, and order value. Free standard shipping on $50+ orders in continental US. For exact costs, add items to cart and enter address at checkout. Need help calculating?"
+
+  utter_delivery_time:
+    - text: "US standard: 3-5 business days. Express: 1-2 days. International: 7-14 days. Exact times vary. You'll get an estimate when order ships. Questions about a specific method or destination?"
+
+  utter_payment_methods:
+    - text: "We accept major credit cards, PayPal, Apple/Google Pay, and store gift cards. We also offer buy now, pay later options. Let me know if you have any questions about a specific payment method."
+
+  utter_payment_issues:
+    - text: "I'm sorry to hear you're experiencing payment issues. There could be several reasons for this, such as insufficient funds, incorrect card information, or a temporary issue with the payment system."
+
+  utter_discount_inquiries:
+    - text: "We regularly offer various discounts and promotions. Currently, we have a seasonal sale with up to 30% off on selected items. We also offer a 10% student discount with valid ID, and a 15% discount for first-time customers who sign up for our newsletter."
+
+  utter_promo_code_application:
+    - text: "To apply a promo code, enter it in the checkout field and click 'Apply'. Make sure the code is valid and meets any conditions. If you forget to use a code, contact customer service right away."
+
+  utter_account_creation:
+    - text: "Signing up for an account is free and easy. You can register using your email or social media. Having an account lets you track orders, save favorites, and checkout faster. The process takes just a few minutes."
+
+  utter_account_login:
+    - text: "To log in, click the 'Sign In' button and enter your email/username and password. If you forgot your password, use the 'Forgot Password' link to reset it. You can also log in through our mobile app."
+
+  utter_wishlist_management:
+    - text: "Add items to your wishlist with a click. View and manage your wishlist in your account. You can easily move items to your cart. While we don't have sale notifications yet, this feature is coming."
+
+  utter_feedback:
+    - text: "We appreciate your feedback! Leave product reviews on the item page. For general feedback, use the 'Contact Us' form. You can also rate our customer service. We read all feedback to improve our services."
+
+  utter_customer_service_contact:
+    - text: "You can reach our customer service through phone, live chat, email, or our contact form. We aim to respond within 24 hours. For urgent matters, phone or live chat is best."
+
+  utter_store_locations:
+    - text: "We have store at Tan Lap, Dong Hoa, Di An, Binh Duong"
+
+  utter_care_instructions:
+    - text: "Check the product label or description for specific care instructions. Generally, follow the label directions, especially for clothing. Let me know if you need guidance on caring for a particular item."
+
+  utter_material_information:
+    - text: "You can find detailed material information in the product descriptions. We use high-quality, sustainable, and ethically sourced materials. For clothing, the fabric compositions are listed."
+
+  utter_gift_options:
+    - text: "We offer gift wrapping, personalized messages, gift-ready packaging, direct shipping, and gift receipts. Just select 'This is a gift' at checkout."
+
+  utter_gift_cards:
+    - text: "Our gift cards make great presents! They're available online and in-store, in physical or digital form. The cards have no expiration or fees, and you can use multiple cards per purchase."
+
+  utter_sale_inquiries:
+    - text: "We regularly offer sales like our seasonal sale with up to 50% off, a clearance section, and weekly deals. To stay updated, check our 'Sale' section or subscribe to our newsletter for 10% off your next purchase."
+
+  utter_new_arrivals:
+    - text: "We add new products to our inventory weekly, which you can find in our 'New Arrivals' section. We also launch seasonal collections and give subscribers and social media followers early access. Some of our current highlights are [mention 2-3 new items]."
+
+  utter_sustainability_practices:
+    - text: "Sustainability is a priority for us. We use eco-friendly materials, sustainable packaging, and ethical manufacturing. We also have initiatives for carbon footprint reduction, water conservation, and recycling programs."
+
+  utter_custom_tailoring:
+    - text: "We offer in-store alterations and made-to-measure options to ensure the perfect fit. Services include adjustments to length, width, and other aspects. Pricing varies, and most alterations are completed within 5-7 days. All work is done by experienced professionals."
+
+  utter_bulk_orders:
+    - text: "For bulk orders, we offer volume discounts starting at 50+ units per item. We can provide custom quotes for very large orders and have dedicated corporate and wholesale programs. Our team will guide you through the entire bulk order process, including lead times."
+
+  utter_international_shipping:
+    - text: "We offer international shipping to over 100 countries worldwide. Shipping costs and delivery times vary by destination, and customs/duties may apply. All international orders are trackable, and returns are accepted within 30 days, though return shipping is the customer's responsibility. Some product restrictions may apply."
+
+  utter_social_media_channels:
+    - text: "You can find and follow us on various social media platforms, including Instagram, Facebook, Twitter, Pinterest, TikTok, YouTube, and LinkedIn. Each channel offers a unique way to engage with our brand, from style inspiration and new product showcases to community stories and industry insights."
+
+  utter_password_reset:
+    - text: "To reset your password, go to the login page and click 'Forgot Password'. Enter the email associated with your account, and you'll receive a password reset link. Follow the instructions in the email to create a new password and log in. If you have any issues, please contact our customer support team, and I can provide their contact information."
+
+  utter_brand_information:
+    - text: "Our company was founded in 2024 by Vu and Ninh. Our mission is to provide innovative, sustainable products, prioritizing customer satisfaction, environmental responsibility, and continuous improvement."
+
+  utter_loyalty_program:
+    - text: "Our VNIU CLUB loyalty program lets you earn 1 point per $1 spent. Benefits include exclusive discounts, birthday rewards, and free shipping. There are tiered rewards based on points earned, which can be redeemed for discounts or free products. Points expire after 12 months."
+
+  utter_style_advice:
+    - text: "Key trends include oversized blazers, high-waisted pants, and bold colors. Invest in timeless essentials like a white shirt and classic denim. For formal events, a tailored suit in a rich tone with minimal jewelry can work well. Accessories elevate any look, and a versatile, eco-friendly capsule wardrobe is ideal. Wear what makes you feel confident and comfortable."
+
+  utter_size_availability:
+    - text: "I can certainly check size availability for you. Could you please specify the product you're interested in and the size you're looking for? Once you provide that information, I'll be able to tell you if it's in stock or when we expect to restock if it's currently unavailable."
 
 session_config:
   session_expiration_time: 60

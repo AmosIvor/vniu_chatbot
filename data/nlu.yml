@@ -30,24 +30,25 @@ nlu:
       - Bye bye
       - See you later
 
-  - intent: affirm
+  - intent: thank
     examples: |
-      - Yes
-      - Y
-      - Indeed
-      - Of course
-      - That sounds good
-      - Correct
+      - Thank you
+      - Thanks
+      - Thanks a lot
+      - I appreciate it
+      - Thank you so much
+      - Thanks for your help
+      - That's very helpful, thanks
 
-  - intent: deny
+  - intent: help
     examples: |
-      - No
-      - N
-      - Never
-      - I don't think so
-      - Don't like that
-      - No way
-      - Not really
+      - I need help
+      - Can you assist me?
+      - What can you do?
+      - How can you help me?
+      - What are your capabilities?
+      - I'm not sure what to do
+      - Can you guide me?
 
   - intent: bot_challenge
     examples: |
@@ -55,68 +56,3 @@ nlu:
       - Are you a human?
       - Am I talking to a bot?
       - Am I talking to a human?
-
-  - intent: address
-    examples: |
-      - What is the address of your shop?
-      - Can you give me the shop's address?
-      - Where are you located?
-      - address of shop
-      - Tell me about shop's address
-
-  - intent: washing
-    examples: |
-      - How should I wash this item?
-      - What are the wasing instructions?
-      - Can you tell me how to care for this product?
-      - Is this item machine wasable?
-      - Give me washing tips for this fabric.
-      - How can I wash your products?
-
-  - intent: quality_guarantee
-    examples: |
-      - Do you have a quality guarantee?
-      - What if I am not satisfied with the quality?
-      - How do you ensure product quality?
-      - Can you guarantee the quality of your products?
-      - Tell me about your quality guarantee
-      - quality guarantee
-
-  - intent: account_issues
-    examples: |
-      - I cannot log into my account?
-      - I am having trouble with my account?
-      - Account not accessible?
-      - Help with my account?
-      - Please support my account?
-
-  - intent: promotion
-    examples: |
-      - Do you have any discounts?
-      - Are there any current promotions?
-      - What are your offer for this product?
-      - Discount codes?
-      - Available deals
-
-  - intent: payment_method
-    examples: |
-      - What payment methods do you accept?
-      - Can I pay with PayPal?
-      - Do you accept credit cards?
-      - Payment options
-      - How can I pay?
-      - Can I pay with Momo?
-      - Do you accept Bank transfer?
-      - Payment methods
-      - What about Payment methods?
-      - What payment options shop provide?
-
-  - intent: feedback
-    examples: |
-      - How can I see feedback of this product?
-      - Where are the product reviews of this product?
-      - Show me the feedback of these products?
-      - Show me the reviews of this product?
-      - Give em feedback of this product?
-      - How do I view customer review?
-      - I want to read reviews

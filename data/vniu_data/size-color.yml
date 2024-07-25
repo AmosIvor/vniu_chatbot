@@ -1,0 +1,32 @@
+version: "3.1"
+
+nlu:
+  - intent: size_guide
+    examples: |
+      - How do I find my size?
+      - What size should I order?
+      - Can you help me with sizing?
+      - Where is the size chart?
+      - How do your sizes run?
+      - Are your sizes true to fit?
+      - I'm not sure what size to get
+
+  - intent: size_availability
+    examples: |
+      - Do you have this in my size?
+      - What sizes are available for this item?
+      - Is size M in stock?
+      - Are all sizes available?
+      - When will you restock my size?
+      - Can you check if you have my size?
+      - Is this available in XL?
+
+  - intent: color_options
+    examples: |
+      - What colors does this come in?
+      - Are there other color options?
+      - Show me all available colors
+      - Do you have this in blue?
+      - What shades are available?
+      - Can I see other color variations?
+      - Is this available in different colors?

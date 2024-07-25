@@ -1,20 +1,62 @@
 version: "3.1"
 
 nlu:
+  - intent: product_search
+    examples: |
+      - How do I search for a specific product?
+      - Can you help me find a particular item?
+      - Where's the search bar?
+      - I'm looking for a specific piece of clothing
+      - How can I search for products on your website?
+      - Is there a way to filter search results?
+      - Show me how to search for items
+
   - intent: product_information
     examples: |
       - Can you tell me more about this product?
       - What are the features of this item?
-      - Product details
-      - Product Information
-      - Information about this item
-      - Specifications of this product
-      - Give me some informations about this product
-
-  - intent: product_size
-    examples: |
+      - I need more details about this clothing
+      - What materials is this made from?
+      - Does this come in different colors?
       - What sizes are available for this product?
-      - Can you tell me about the sizes?
-      - What size should I choose?
-      - Size options
-      - Available sizes
+      - Can you describe this item to me?
+
+  - intent: product_availability
+    examples: |
+      - Is this item in stock?
+      - Do you have this product available?
+      - When will this be back in stock?
+      - Can I get this in my size?
+      - Are there any left of this item?
+      - Check stock for this product
+      - Is this sold out?
+
+  - intent: product_price
+    examples: |
+      - How much does this cost?
+      - What's the price of this item?
+      - Can you tell me the price?
+      - Is there a discount on this product?
+      - Are there any ongoing sales?
+      - How much do I need to pay for this?
+      - What's the current price for this product?
+
+  - intent: product_comparison
+    examples: |
+      - What's the difference between these two products?
+      - Can you compare these items for me?
+      - How does this compare to a similar product?
+      - Which one is better?
+      - What are the pros and cons of each?
+      - Help me choose between these options
+      - Can you show me a side-by-side comparison?
+
+  - intent: product_recommendations
+    examples: |
+      - What do you recommend?
+      - Can you suggest some products for me?
+      - What's popular right now?
+      - I need help finding something to wear
+      - What goes well with this item?
+      - Show me some outfit ideas
+      - What are your best-selling items?
