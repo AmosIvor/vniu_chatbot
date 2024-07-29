@@ -1,276 +1,128 @@
 {
-  "exchange_process": {
-    "precision": 0.6666666666666666,
-    "recall": 0.8571428571428571,
-    "f1-score": 0.75,
-    "support": 7,
-    "confused_with": {
-      "size_availability": 1
-    }
-  },
-  "order_tracking": {
-    "precision": 0.14285714285714285,
-    "recall": 0.14285714285714285,
-    "f1-score": 0.14285714285714285,
-    "support": 7,
-    "confused_with": {
-      "international_shipping": 2,
-      "account_login": 1
-    }
-  },
-  "sale_inquiries": {
-    "precision": 0.18181818181818182,
-    "recall": 0.2857142857142857,
-    "f1-score": 0.2222222222222222,
-    "support": 7,
-    "confused_with": {
-      "discount_inquiries": 2,
-      "order_cancellation": 1
-    }
-  },
-  "account_creation": {
-    "precision": 0.4444444444444444,
-    "recall": 0.5714285714285714,
-    "f1-score": 0.5,
-    "support": 7,
-    "confused_with": {
-      "social_media_channels": 1,
-      "account_login": 1
-    }
-  },
-  "product_price": {
-    "precision": 0.75,
-    "recall": 0.42857142857142855,
-    "f1-score": 0.5454545454545454,
-    "support": 7,
-    "confused_with": {
-      "material_information": 1,
-      "payment_methods": 1
-    }
-  },
-  "gift_options": {
-    "precision": 0.6666666666666666,
-    "recall": 0.2857142857142857,
-    "f1-score": 0.4,
-    "support": 7,
-    "confused_with": {
-      "order_status": 1,
-      "social_media_channels": 1
-    }
-  },
-  "store_locations": {
-    "precision": 0.8571428571428571,
-    "recall": 0.8571428571428571,
-    "f1-score": 0.8571428571428571,
-    "support": 7,
-    "confused_with": {
-      "international_shipping": 1
-    }
-  },
-  "product_information": {
-    "precision": 0.2857142857142857,
-    "recall": 0.2857142857142857,
-    "f1-score": 0.2857142857142857,
-    "support": 7,
-    "confused_with": {
-      "care_instructions": 2,
-      "material_information": 1
-    }
-  },
   "help": {
-    "precision": 0.5,
-    "recall": 0.42857142857142855,
-    "f1-score": 0.4615384615384615,
+    "precision": 0.7142857142857143,
+    "recall": 0.7142857142857143,
+    "f1-score": 0.7142857142857143,
     "support": 7,
     "confused_with": {
-      "return_process": 2,
-      "account_creation": 1
-    }
-  },
-  "new_arrivals": {
-    "precision": 0.0,
-    "recall": 0.0,
-    "f1-score": 0.0,
-    "support": 7,
-    "confused_with": {
-      "sale_inquiries": 3,
-      "help": 1,
+      "sustainability_practices": 1,
       "color_options": 1
     }
   },
-  "product_recommendations": {
-    "precision": 0.25,
-    "recall": 0.14285714285714285,
-    "f1-score": 0.18181818181818182,
-    "support": 7,
-    "confused_with": {
-      "style_advice": 2,
-      "new_arrivals": 1
-    }
-  },
-  "gift_cards": {
-    "precision": 0.7,
-    "recall": 1.0,
-    "f1-score": 0.8235294117647058,
-    "support": 7,
-    "confused_with": {}
-  },
-  "social_media_channels": {
-    "precision": 0.5,
+  "new_arrivals": {
+    "precision": 0.6,
     "recall": 0.42857142857142855,
-    "f1-score": 0.4615384615384615,
+    "f1-score": 0.5,
     "support": 7,
     "confused_with": {
-      "promo_code_application": 1,
-      "order_tracking": 1
+      "sustainability_practices": 1,
+      "product_availability": 1
     }
   },
-  "product_availability": {
-    "precision": 0.3333333333333333,
-    "recall": 0.2857142857142857,
-    "f1-score": 0.30769230769230765,
+  "shipping_cost": {
+    "precision": 0.42857142857142855,
+    "recall": 0.42857142857142855,
+    "f1-score": 0.42857142857142855,
     "support": 7,
     "confused_with": {
-      "size_availability": 2,
-      "new_arrivals": 1
-    }
-  },
-  "sustainability_practices": {
-    "precision": 0.4,
-    "recall": 0.2857142857142857,
-    "f1-score": 0.3333333333333333,
-    "support": 7,
-    "confused_with": {
-      "product_search": 2,
-      "brand_information": 1
+      "shipping_information": 3,
+      "delivery_time": 1
     }
   },
   "color_options": {
-    "precision": 0.3333333333333333,
-    "recall": 0.42857142857142855,
-    "f1-score": 0.375,
-    "support": 7,
-    "confused_with": {
-      "brand_information": 1,
-      "size_availability": 1
-    }
-  },
-  "greet": {
-    "precision": 0.9,
-    "recall": 0.6923076923076923,
-    "f1-score": 0.7826086956521738,
-    "support": 13,
-    "confused_with": {
-      "goodbye": 2,
-      "order_cancellation": 1
-    }
-  },
-  "order_cancellation": {
-    "precision": 0.5454545454545454,
-    "recall": 0.8571428571428571,
-    "f1-score": 0.6666666666666665,
-    "support": 7,
-    "confused_with": {
-      "order_modification": 1
-    }
-  },
-  "thank": {
-    "precision": 1.0,
-    "recall": 0.8571428571428571,
-    "f1-score": 0.923076923076923,
-    "support": 7,
-    "confused_with": {
-      "account_login": 1
-    }
-  },
-  "goodbye": {
-    "precision": 0.7777777777777778,
-    "recall": 0.7,
-    "f1-score": 0.7368421052631577,
-    "support": 10,
-    "confused_with": {
-      "return_policy": 1,
-      "size_availability": 1
-    }
-  },
-  "delivery_time": {
-    "precision": 0.5,
-    "recall": 0.2857142857142857,
-    "f1-score": 0.36363636363636365,
-    "support": 7,
-    "confused_with": {
-      "order_status": 1,
-      "order_tracking": 1
-    }
-  },
-  "feedback": {
-    "precision": 1.0,
-    "recall": 0.2857142857142857,
-    "f1-score": 0.4444444444444445,
-    "support": 7,
-    "confused_with": {
-      "order_cancellation": 1,
-      "product_recommendations": 1
-    }
-  },
-  "product_search": {
     "precision": 0.45454545454545453,
     "recall": 0.7142857142857143,
     "f1-score": 0.5555555555555556,
     "support": 7,
     "confused_with": {
-      "custom_tailoring": 1,
-      "delivery_time": 1
+      "size_availability": 1,
+      "product_information": 1
     }
   },
-  "size_availability": {
-    "precision": 0.38461538461538464,
-    "recall": 0.7142857142857143,
-    "f1-score": 0.5,
+  "thank": {
+    "precision": 0.8571428571428571,
+    "recall": 0.8571428571428571,
+    "f1-score": 0.8571428571428571,
     "support": 7,
     "confused_with": {
-      "size_guide": 1,
-      "product_availability": 1
+      "store_locations": 1
     }
   },
-  "material_information": {
-    "precision": 0.2857142857142857,
+  "order_cancellation": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 7,
+    "confused_with": {}
+  },
+  "shipping_information": {
+    "precision": 0.2222222222222222,
     "recall": 0.2857142857142857,
-    "f1-score": 0.2857142857142857,
+    "f1-score": 0.25,
     "support": 7,
     "confused_with": {
-      "sustainability_practices": 2,
-      "product_availability": 1
+      "international_shipping": 2,
+      "shipping_cost": 2
+    }
+  },
+  "brand_information": {
+    "precision": 0.5,
+    "recall": 0.7142857142857143,
+    "f1-score": 0.588235294117647,
+    "support": 7,
+    "confused_with": {
+      "color_options": 1,
+      "sale_inquiries": 1
+    }
+  },
+  "product_information": {
+    "precision": 0.08333333333333333,
+    "recall": 0.14285714285714285,
+    "f1-score": 0.10526315789473685,
+    "support": 7,
+    "confused_with": {
+      "product_availability": 2,
+      "material_information": 1,
+      "care_instructions": 1
+    }
+  },
+  "size_guide": {
+    "precision": 1.0,
+    "recall": 0.5714285714285714,
+    "f1-score": 0.7272727272727273,
+    "support": 7,
+    "confused_with": {
+      "size_availability": 2,
+      "help": 1
+    }
+  },
+  "order_tracking": {
+    "precision": 0.4,
+    "recall": 0.5714285714285714,
+    "f1-score": 0.47058823529411764,
+    "support": 7,
+    "confused_with": {
+      "gift_options": 1,
+      "international_shipping": 1
     }
   },
   "return_process": {
-    "precision": 0.36363636363636365,
-    "recall": 0.5714285714285714,
-    "f1-score": 0.4444444444444444,
+    "precision": 0.625,
+    "recall": 0.7142857142857143,
+    "f1-score": 0.6666666666666666,
     "support": 7,
     "confused_with": {
-      "account_creation": 2,
-      "return_policy": 1
+      "return_policy": 2
     }
   },
-  "shipping_information": {
-    "precision": 0.2,
+  "material_information": {
+    "precision": 0.4,
     "recall": 0.2857142857142857,
-    "f1-score": 0.23529411764705882,
+    "f1-score": 0.3333333333333333,
     "support": 7,
     "confused_with": {
-      "shipping_cost": 3,
-      "order_tracking": 1
-    }
-  },
-  "style_advice": {
-    "precision": 0.42857142857142855,
-    "recall": 0.3,
-    "f1-score": 0.3529411764705882,
-    "support": 10,
-    "confused_with": {
-      "care_instructions": 2,
-      "account_creation": 1
+      "product_information": 4,
+      "sustainability_practices": 1
     }
   },
   "wishlist_management": {
@@ -282,210 +134,351 @@
       "sale_inquiries": 1
     }
   },
-  "bulk_orders": {
-    "precision": 0.375,
+  "gift_options": {
+    "precision": 0.6,
     "recall": 0.42857142857142855,
-    "f1-score": 0.39999999999999997,
-    "support": 7,
-    "confused_with": {
-      "discount_inquiries": 2,
-      "color_options": 1
-    }
-  },
-  "discount_inquiries": {
-    "precision": 0.16666666666666666,
-    "recall": 0.14285714285714285,
-    "f1-score": 0.15384615384615383,
-    "support": 7,
-    "confused_with": {
-      "sale_inquiries": 2,
-      "bulk_orders": 1,
-      "color_options": 1
-    }
-  },
-  "return_policy": {
-    "precision": 0.5714285714285714,
-    "recall": 0.5714285714285714,
-    "f1-score": 0.5714285714285714,
-    "support": 7,
-    "confused_with": {
-      "return_process": 2,
-      "color_options": 1
-    }
-  },
-  "care_instructions": {
-    "precision": 0.3333333333333333,
-    "recall": 0.42857142857142855,
-    "f1-score": 0.375,
-    "support": 7,
-    "confused_with": {
-      "material_information": 1,
-      "store_locations": 1
-    }
-  },
-  "brand_information": {
-    "precision": 0.6666666666666666,
-    "recall": 0.5714285714285714,
-    "f1-score": 0.6153846153846153,
-    "support": 7,
-    "confused_with": {
-      "bulk_orders": 1,
-      "product_availability": 1
-    }
-  },
-  "size_guide": {
-    "precision": 0.75,
-    "recall": 0.42857142857142855,
-    "f1-score": 0.5454545454545454,
-    "support": 7,
-    "confused_with": {
-      "size_availability": 2,
-      "product_search": 1
-    }
-  },
-  "payment_methods": {
-    "precision": 0.4444444444444444,
-    "recall": 0.5714285714285714,
     "f1-score": 0.5,
     "support": 7,
     "confused_with": {
       "gift_cards": 2,
-      "account_creation": 1
-    }
-  },
-  "shipping_cost": {
-    "precision": 0.45454545454545453,
-    "recall": 0.7142857142857143,
-    "f1-score": 0.5555555555555556,
-    "support": 7,
-    "confused_with": {
-      "product_search": 1,
-      "custom_tailoring": 1
-    }
-  },
-  "customer_service_contact": {
-    "precision": 0.6,
-    "recall": 0.8571428571428571,
-    "f1-score": 0.7058823529411764,
-    "support": 7,
-    "confused_with": {
-      "international_shipping": 1
-    }
-  },
-  "international_shipping": {
-    "precision": 0.14285714285714285,
-    "recall": 0.14285714285714285,
-    "f1-score": 0.14285714285714285,
-    "support": 7,
-    "confused_with": {
-      "order_tracking": 1,
-      "shipping_information": 1
-    }
-  },
-  "product_comparison": {
-    "precision": 0.3333333333333333,
-    "recall": 0.2857142857142857,
-    "f1-score": 0.30769230769230765,
-    "support": 7,
-    "confused_with": {
-      "exchange_process": 1,
-      "material_information": 1
+      "order_modification": 1
     }
   },
   "password_reset": {
-    "precision": 0.6666666666666666,
-    "recall": 0.8571428571428571,
-    "f1-score": 0.75,
-    "support": 7,
-    "confused_with": {
-      "account_login": 1
-    }
-  },
-  "loyalty_program": {
     "precision": 0.8571428571428571,
     "recall": 0.8571428571428571,
     "f1-score": 0.8571428571428571,
     "support": 7,
     "confused_with": {
-      "bulk_orders": 1
+      "account_login": 1
     }
   },
-  "order_modification": {
-    "precision": 0.6,
-    "recall": 0.42857142857142855,
-    "f1-score": 0.5,
+  "product_search": {
+    "precision": 1.0,
+    "recall": 0.7142857142857143,
+    "f1-score": 0.8333333333333333,
     "support": 7,
     "confused_with": {
-      "shipping_information": 2,
-      "exchange_process": 1
+      "custom_tailoring": 1,
+      "product_comparison": 1
     }
   },
-  "custom_tailoring": {
+  "size_availability": {
+    "precision": 0.4,
+    "recall": 0.5714285714285714,
+    "f1-score": 0.47058823529411764,
+    "support": 7,
+    "confused_with": {
+      "color_options": 1,
+      "product_availability": 1
+    }
+  },
+  "style_advice": {
     "precision": 0.5,
-    "recall": 0.42857142857142855,
-    "f1-score": 0.4615384615384615,
+    "recall": 0.3,
+    "f1-score": 0.37499999999999994,
+    "support": 10,
+    "confused_with": {
+      "account_creation": 1,
+      "product_recommendations": 1
+    }
+  },
+  "return_policy": {
+    "precision": 0.5555555555555556,
+    "recall": 0.7142857142857143,
+    "f1-score": 0.6250000000000001,
     "support": 7,
     "confused_with": {
-      "bulk_orders": 1,
-      "payment_methods": 1
+      "return_process": 2
+    }
+  },
+  "product_recommendations": {
+    "precision": 0.3333333333333333,
+    "recall": 0.14285714285714285,
+    "f1-score": 0.2,
+    "support": 7,
+    "confused_with": {
+      "style_advice": 2,
+      "order_modification": 1
     }
   },
   "promo_code_application": {
-    "precision": 0.75,
-    "recall": 0.8571428571428571,
-    "f1-score": 0.7999999999999999,
+    "precision": 0.7777777777777778,
+    "recall": 1.0,
+    "f1-score": 0.8750000000000001,
+    "support": 7,
+    "confused_with": {}
+  },
+  "product_comparison": {
+    "precision": 0.8,
+    "recall": 0.5714285714285714,
+    "f1-score": 0.6666666666666666,
     "support": 7,
     "confused_with": {
-      "payment_issues": 1
+      "promo_code_application": 1,
+      "product_information": 1
     }
   },
-  "payment_issues": {
-    "precision": 0.6666666666666666,
+  "product_price": {
+    "precision": 0.3,
+    "recall": 0.42857142857142855,
+    "f1-score": 0.3529411764705882,
+    "support": 7,
+    "confused_with": {
+      "international_shipping": 1,
+      "product_availability": 1
+    }
+  },
+  "care_instructions": {
+    "precision": 0.5,
     "recall": 0.2857142857142857,
-    "f1-score": 0.4,
+    "f1-score": 0.36363636363636365,
     "support": 7,
     "confused_with": {
-      "payment_methods": 2,
-      "order_status": 1
+      "product_price": 2,
+      "material_information": 1
     }
   },
-  "account_login": {
-    "precision": 0.16666666666666666,
-    "recall": 0.14285714285714285,
-    "f1-score": 0.15384615384615383,
-    "support": 7,
-    "confused_with": {
-      "password_reset": 3,
-      "gift_options": 1
-    }
-  },
-  "order_status": {
+  "payment_methods": {
     "precision": 0.42857142857142855,
     "recall": 0.42857142857142855,
     "f1-score": 0.42857142857142855,
     "support": 7,
     "confused_with": {
+      "gift_cards": 2,
+      "thank": 1
+    }
+  },
+  "goodbye": {
+    "precision": 0.7777777777777778,
+    "recall": 0.7,
+    "f1-score": 0.7368421052631577,
+    "support": 10,
+    "confused_with": {
+      "greet": 2,
+      "product_price": 1
+    }
+  },
+  "custom_tailoring": {
+    "precision": 0.5,
+    "recall": 0.14285714285714285,
+    "f1-score": 0.22222222222222224,
+    "support": 7,
+    "confused_with": {
+      "new_arrivals": 1,
+      "product_availability": 1
+    }
+  },
+  "sale_inquiries": {
+    "precision": 0.2222222222222222,
+    "recall": 0.2857142857142857,
+    "f1-score": 0.25,
+    "support": 7,
+    "confused_with": {
+      "discount_inquiries": 2,
+      "gift_cards": 1
+    }
+  },
+  "feedback": {
+    "precision": 0.6,
+    "recall": 0.42857142857142855,
+    "f1-score": 0.5,
+    "support": 7,
+    "confused_with": {
+      "customer_service_contact": 2,
+      "sustainability_practices": 1
+    }
+  },
+  "account_creation": {
+    "precision": 0.625,
+    "recall": 0.7142857142857143,
+    "f1-score": 0.6666666666666666,
+    "support": 7,
+    "confused_with": {
+      "account_login": 1,
+      "social_media_channels": 1
+    }
+  },
+  "store_locations": {
+    "precision": 0.8571428571428571,
+    "recall": 0.8571428571428571,
+    "f1-score": 0.8571428571428571,
+    "support": 7,
+    "confused_with": {
+      "sustainability_practices": 1
+    }
+  },
+  "international_shipping": {
+    "precision": 0.16666666666666666,
+    "recall": 0.14285714285714285,
+    "f1-score": 0.15384615384615383,
+    "support": 7,
+    "confused_with": {
+      "shipping_information": 2,
+      "order_tracking": 1
+    }
+  },
+  "order_modification": {
+    "precision": 0.4444444444444444,
+    "recall": 0.5714285714285714,
+    "f1-score": 0.5,
+    "support": 7,
+    "confused_with": {
       "shipping_cost": 1,
+      "sale_inquiries": 1
+    }
+  },
+  "customer_service_contact": {
+    "precision": 0.6666666666666666,
+    "recall": 0.8571428571428571,
+    "f1-score": 0.75,
+    "support": 7,
+    "confused_with": {
+      "wishlist_management": 1
+    }
+  },
+  "greet": {
+    "precision": 0.8461538461538461,
+    "recall": 0.8461538461538461,
+    "f1-score": 0.8461538461538461,
+    "support": 13,
+    "confused_with": {
+      "return_policy": 1,
+      "goodbye": 1
+    }
+  },
+  "social_media_channels": {
+    "precision": 0.75,
+    "recall": 0.42857142857142855,
+    "f1-score": 0.5454545454545454,
+    "support": 7,
+    "confused_with": {
+      "brand_information": 2,
+      "order_tracking": 1
+    }
+  },
+  "exchange_process": {
+    "precision": 1.0,
+    "recall": 0.8571428571428571,
+    "f1-score": 0.923076923076923,
+    "support": 7,
+    "confused_with": {
+      "size_availability": 1
+    }
+  },
+  "gift_cards": {
+    "precision": 0.5384615384615384,
+    "recall": 1.0,
+    "f1-score": 0.7000000000000001,
+    "support": 7,
+    "confused_with": {}
+  },
+  "sustainability_practices": {
+    "precision": 0.2857142857142857,
+    "recall": 0.2857142857142857,
+    "f1-score": 0.2857142857142857,
+    "support": 7,
+    "confused_with": {
+      "new_arrivals": 1,
+      "brand_information": 1
+    }
+  },
+  "product_availability": {
+    "precision": 0.2727272727272727,
+    "recall": 0.42857142857142855,
+    "f1-score": 0.33333333333333326,
+    "support": 7,
+    "confused_with": {
+      "product_information": 2,
+      "size_availability": 1
+    }
+  },
+  "discount_inquiries": {
+    "precision": 0.2222222222222222,
+    "recall": 0.2857142857142857,
+    "f1-score": 0.25,
+    "support": 7,
+    "confused_with": {
+      "bulk_orders": 2,
+      "account_creation": 1
+    }
+  },
+  "delivery_time": {
+    "precision": 0.6666666666666666,
+    "recall": 0.5714285714285714,
+    "f1-score": 0.6153846153846153,
+    "support": 7,
+    "confused_with": {
+      "order_tracking": 1,
+      "international_shipping": 1
+    }
+  },
+  "bulk_orders": {
+    "precision": 0.3333333333333333,
+    "recall": 0.2857142857142857,
+    "f1-score": 0.30769230769230765,
+    "support": 7,
+    "confused_with": {
+      "discount_inquiries": 2,
+      "order_tracking": 1
+    }
+  },
+  "order_status": {
+    "precision": 0.75,
+    "recall": 0.42857142857142855,
+    "f1-score": 0.5454545454545454,
+    "support": 7,
+    "confused_with": {
+      "order_modification": 2,
       "bulk_orders": 1
     }
   },
-  "accuracy": 0.4942528735632184,
+  "payment_issues": {
+    "precision": 1.0,
+    "recall": 0.42857142857142855,
+    "f1-score": 0.6,
+    "support": 7,
+    "confused_with": {
+      "payment_methods": 2,
+      "style_advice": 1
+    }
+  },
+  "loyalty_program": {
+    "precision": 0.75,
+    "recall": 0.8571428571428571,
+    "f1-score": 0.7999999999999999,
+    "support": 7,
+    "confused_with": {
+      "bulk_orders": 1
+    }
+  },
+  "account_login": {
+    "precision": 0.6,
+    "recall": 0.42857142857142855,
+    "f1-score": 0.5,
+    "support": 7,
+    "confused_with": {
+      "account_creation": 1,
+      "order_modification": 1
+    }
+  },
+  "accuracy": 0.5574712643678161,
   "macro avg": {
-    "precision": 0.5038213522588523,
-    "recall": 0.4906135531135531,
-    "f1-score": 0.4795918540218748,
+    "precision": 0.5847880129130129,
+    "recall": 0.5533424908424909,
+    "f1-score": 0.5518942144958011,
     "support": 348
   },
   "weighted avg": {
-    "precision": 0.5123650056839711,
-    "recall": 0.4942528735632184,
-    "f1-score": 0.48594214071972486,
+    "precision": 0.5902270941064044,
+    "recall": 0.5574712643678161,
+    "f1-score": 0.5570370846646602,
     "support": 348
   },
   "micro avg": {
-    "precision": 0.4942528735632184,
-    "recall": 0.4942528735632184,
-    "f1-score": 0.4942528735632184,
+    "precision": 0.5574712643678161,
+    "recall": 0.5574712643678161,
+    "f1-score": 0.5574712643678161,
     "support": 348
   }
 }
