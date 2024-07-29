@@ -1,0 +1,1018 @@
+[
+  {
+    "text": "Can you guide me through a return?",
+    "intent": "return_process",
+    "intent_prediction": {
+      "name": "return_policy",
+      "confidence": 0.2635877728462219
+    }
+  },
+  {
+    "text": "Can I swap for a different size?",
+    "intent": "exchange_process",
+    "intent_prediction": {
+      "name": "size_guide",
+      "confidence": 0.4146127998828888
+    }
+  },
+  {
+    "text": "Can I use a gift card for payment?",
+    "intent": "payment_methods",
+    "intent_prediction": {
+      "name": "gift_cards",
+      "confidence": 0.4841352701187134
+    }
+  },
+  {
+    "text": "Why isn't my credit card working?",
+    "intent": "payment_issues",
+    "intent_prediction": {
+      "name": "payment_methods",
+      "confidence": 0.18421824276447296
+    }
+  },
+  {
+    "text": "Do you have any promotional deals?",
+    "intent": "discount_inquiries",
+    "intent_prediction": {
+      "name": "sale_inquiries",
+      "confidence": 0.6000293493270874
+    }
+  },
+  {
+    "text": "Where do I enter the coupon code?",
+    "intent": "promo_code_application",
+    "intent_prediction": {
+      "name": "account_login",
+      "confidence": 0.22363018989562988
+    }
+  },
+  {
+    "text": "Where can I find my saved items?",
+    "intent": "wishlist_management",
+    "intent_prediction": {
+      "name": "feedback",
+      "confidence": 0.13369214534759521
+    }
+  },
+  {
+    "text": "Can I email your support team?",
+    "intent": "customer_service_contact",
+    "intent_prediction": {
+      "name": "social_media_channels",
+      "confidence": 0.37195074558258057
+    }
+  },
+  {
+    "text": "Can I pick up my online order in-store?",
+    "intent": "store_locations",
+    "intent_prediction": {
+      "name": "account_login",
+      "confidence": 0.19156286120414734
+    }
+  },
+  {
+    "text": "Is this product made from sustainable materials?",
+    "intent": "material_information",
+    "intent_prediction": {
+      "name": "sustainability_practices",
+      "confidence": 0.2160893678665161
+    }
+  },
+  {
+    "text": "Are there any special discounts this week?",
+    "intent": "sale_inquiries",
+    "intent_prediction": {
+      "name": "discount_inquiries",
+      "confidence": 0.8133557438850403
+    }
+  },
+  {
+    "text": "Do you use sustainable packaging?",
+    "intent": "sustainability_practices",
+    "intent_prediction": {
+      "name": "material_information",
+      "confidence": 0.16452768445014954
+    }
+  },
+  {
+    "text": "Can you adjust the length of pants or sleeves?",
+    "intent": "custom_tailoring",
+    "intent_prediction": {
+      "name": "order_modification",
+      "confidence": 0.16720473766326904
+    }
+  },
+  {
+    "text": "Can you help me choose an outfit?",
+    "intent": "style_advice",
+    "intent_prediction": {
+      "name": "size_guide",
+      "confidence": 0.3305847942829132
+    }
+  },
+  {
+    "text": "What goes well with [item]?",
+    "intent": "style_advice",
+    "intent_prediction": {
+      "name": "product_recommendations",
+      "confidence": 0.904624342918396
+    }
+  },
+  {
+    "text": "How much do I need to pay for this?",
+    "intent": "product_price",
+    "intent_prediction": {
+      "name": "international_shipping",
+      "confidence": 0.26750120520591736
+    }
+  },
+  {
+    "text": "Which one is better?",
+    "intent": "product_comparison",
+    "intent_prediction": {
+      "name": "product_information",
+      "confidence": 0.20856714248657227
+    }
+  },
+  {
+    "text": "What do you recommend?",
+    "intent": "product_recommendations",
+    "intent_prediction": {
+      "name": "help",
+      "confidence": 0.5408911108970642
+    }
+  },
+  {
+    "text": "Is there a way to track my shipment?",
+    "intent": "shipping_information",
+    "intent_prediction": {
+      "name": "order_tracking",
+      "confidence": 0.7266243100166321
+    }
+  },
+  {
+    "text": "Do you charge extra for international shipping?",
+    "intent": "shipping_cost",
+    "intent_prediction": {
+      "name": "shipping_information",
+      "confidence": 0.37493112683296204
+    }
+  },
+  {
+    "text": "Are all sizes available?",
+    "intent": "size_availability",
+    "intent_prediction": {
+      "name": "size_guide",
+      "confidence": 0.7955966591835022
+    }
+  },
+  {
+    "text": "Is this available in different colors?",
+    "intent": "color_options",
+    "intent_prediction": {
+      "name": "product_information",
+      "confidence": 0.9520925879478455
+    }
+  },
+  {
+    "text": "Have a nice day",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.7969704866409302
+    }
+  },
+  {
+    "text": "I'm not sure what to do",
+    "intent": "help",
+    "intent_prediction": {
+      "name": "style_advice",
+      "confidence": 0.13281384110450745
+    }
+  },
+  {
+    "text": "I need to update my shipping address",
+    "intent": "order_modification",
+    "intent_prediction": {
+      "name": "new_arrivals",
+      "confidence": 0.12571492791175842
+    }
+  },
+  {
+    "text": "What's your return policy?",
+    "intent": "return_policy",
+    "intent_prediction": {
+      "name": "return_process",
+      "confidence": 0.5589719414710999
+    }
+  },
+  {
+    "text": "Do you accept returns without tags?",
+    "intent": "return_policy",
+    "intent_prediction": {
+      "name": "international_shipping",
+      "confidence": 0.170033261179924
+    }
+  },
+  {
+    "text": "How long will it take to receive my order?",
+    "intent": "delivery_time",
+    "intent_prediction": {
+      "name": "order_status",
+      "confidence": 0.6914491057395935
+    }
+  },
+  {
+    "text": "How long does international shipping take?",
+    "intent": "delivery_time",
+    "intent_prediction": {
+      "name": "shipping_cost",
+      "confidence": 0.3366497755050659
+    }
+  },
+  {
+    "text": "Do you offer any buy now, pay later options?",
+    "intent": "payment_methods",
+    "intent_prediction": {
+      "name": "shipping_information",
+      "confidence": 0.07941964268684387
+    }
+  },
+  {
+    "text": "What should I do if my transaction fails?",
+    "intent": "payment_issues",
+    "intent_prediction": {
+      "name": "bulk_orders",
+      "confidence": 0.20513683557510376
+    }
+  },
+  {
+    "text": "Can I create an account using my social media profile?",
+    "intent": "account_creation",
+    "intent_prediction": {
+      "name": "social_media_channels",
+      "confidence": 0.6556578278541565
+    }
+  },
+  {
+    "text": "Is this product dry clean only?",
+    "intent": "care_instructions",
+    "intent_prediction": {
+      "name": "material_information",
+      "confidence": 0.3764299154281616
+    }
+  },
+  {
+    "text": "Are there any sales going on right now?",
+    "intent": "sale_inquiries",
+    "intent_prediction": {
+      "name": "discount_inquiries",
+      "confidence": 0.8923443555831909
+    }
+  },
+  {
+    "text": "Do you have any clearance items?",
+    "intent": "sale_inquiries",
+    "intent_prediction": {
+      "name": "wishlist_management",
+      "confidence": 0.151932492852211
+    }
+  },
+  {
+    "text": "What are your eco-friendly initiatives?",
+    "intent": "sustainability_practices",
+    "intent_prediction": {
+      "name": "material_information",
+      "confidence": 0.3510061502456665
+    }
+  },
+  {
+    "text": "What's your company's stance on sustainability?",
+    "intent": "sustainability_practices",
+    "intent_prediction": {
+      "name": "brand_information",
+      "confidence": 0.20753657817840576
+    }
+  },
+  {
+    "text": "Do you ship internationally?",
+    "intent": "international_shipping",
+    "intent_prediction": {
+      "name": "shipping_information",
+      "confidence": 0.6885207891464233
+    }
+  },
+  {
+    "text": "Can I return items if I'm overseas?",
+    "intent": "international_shipping",
+    "intent_prediction": {
+      "name": "return_policy",
+      "confidence": 0.7733660340309143
+    }
+  },
+  {
+    "text": "Can't log in to my account",
+    "intent": "password_reset",
+    "intent_prediction": {
+      "name": "account_login",
+      "confidence": 0.9904852509498596
+    }
+  },
+  {
+    "text": "How can I search for products on your website?",
+    "intent": "product_search",
+    "intent_prediction": {
+      "name": "store_locations",
+      "confidence": 0.389695405960083
+    }
+  },
+  {
+    "text": "Does this come in different colors?",
+    "intent": "product_information",
+    "intent_prediction": {
+      "name": "color_options",
+      "confidence": 0.9557898640632629
+    }
+  },
+  {
+    "text": "Do you have this product available?",
+    "intent": "product_availability",
+    "intent_prediction": {
+      "name": "product_price",
+      "confidence": 0.18862485885620117
+    }
+  },
+  {
+    "text": "Can I get this in my size?",
+    "intent": "product_availability",
+    "intent_prediction": {
+      "name": "size_availability",
+      "confidence": 0.5914692878723145
+    }
+  },
+  {
+    "text": "Are there any ongoing sales?",
+    "intent": "product_price",
+    "intent_prediction": {
+      "name": "discount_inquiries",
+      "confidence": 0.9395235180854797
+    }
+  },
+  {
+    "text": "What's popular right now?",
+    "intent": "product_recommendations",
+    "intent_prediction": {
+      "name": "style_advice",
+      "confidence": 0.5541849136352539
+    }
+  },
+  {
+    "text": "What are your best-selling items?",
+    "intent": "product_recommendations",
+    "intent_prediction": {
+      "name": "sale_inquiries",
+      "confidence": 0.6597925424575806
+    }
+  },
+  {
+    "text": "Which courier do you use for shipping?",
+    "intent": "shipping_information",
+    "intent_prediction": {
+      "name": "shipping_cost",
+      "confidence": 0.38331785798072815
+    }
+  },
+  {
+    "text": "Are your sizes true to fit?",
+    "intent": "size_guide",
+    "intent_prediction": {
+      "name": "size_availability",
+      "confidence": 0.5197489857673645
+    }
+  },
+  {
+    "text": "Let's go",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "help",
+      "confidence": 0.17022129893302917
+    }
+  },
+  {
+    "text": "Good night",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.5292589068412781
+    }
+  },
+  {
+    "text": "When will my order be ready?",
+    "intent": "order_status",
+    "intent_prediction": {
+      "name": "delivery_time",
+      "confidence": 0.4405481517314911
+    }
+  },
+  {
+    "text": "I need to track my shipment",
+    "intent": "order_tracking",
+    "intent_prediction": {
+      "name": "sale_inquiries",
+      "confidence": 0.14651349186897278
+    }
+  },
+  {
+    "text": "What's the timeframe for standard shipping?",
+    "intent": "delivery_time",
+    "intent_prediction": {
+      "name": "shipping_cost",
+      "confidence": 0.4996795356273651
+    }
+  },
+  {
+    "text": "How can I get a discount on my purchase?",
+    "intent": "discount_inquiries",
+    "intent_prediction": {
+      "name": "custom_tailoring",
+      "confidence": 0.11955241113901138
+    }
+  },
+  {
+    "text": "Can I get a discount for bulk orders?",
+    "intent": "discount_inquiries",
+    "intent_prediction": {
+      "name": "bulk_orders",
+      "confidence": 0.9440549612045288
+    }
+  },
+  {
+    "text": "Where do I submit feedback about my shopping experience?",
+    "intent": "feedback",
+    "intent_prediction": {
+      "name": "account_login",
+      "confidence": 0.2375735491514206
+    }
+  },
+  {
+    "text": "Is there an online form for customer inquiries?",
+    "intent": "customer_service_contact",
+    "intent_prediction": {
+      "name": "feedback",
+      "confidence": 0.5067999958992004
+    }
+  },
+  {
+    "text": "Are your products eco-friendly?",
+    "intent": "material_information",
+    "intent_prediction": {
+      "name": "sustainability_practices",
+      "confidence": 0.8380520939826965
+    }
+  },
+  {
+    "text": "Can you tell me about current promotions?",
+    "intent": "sale_inquiries",
+    "intent_prediction": {
+      "name": "discount_inquiries",
+      "confidence": 0.7016492486000061
+    }
+  },
+  {
+    "text": "Are there any new releases this week?",
+    "intent": "new_arrivals",
+    "intent_prediction": {
+      "name": "sale_inquiries",
+      "confidence": 0.4972574710845947
+    }
+  },
+  {
+    "text": "How do you reduce your carbon footprint?",
+    "intent": "sustainability_practices",
+    "intent_prediction": {
+      "name": "bulk_orders",
+      "confidence": 0.12466594576835632
+    }
+  },
+  {
+    "text": "Do you offer custom tailoring services?",
+    "intent": "custom_tailoring",
+    "intent_prediction": {
+      "name": "shipping_information",
+      "confidence": 0.3490934371948242
+    }
+  },
+  {
+    "text": "Can I get my clothes altered?",
+    "intent": "custom_tailoring",
+    "intent_prediction": {
+      "name": "order_modification",
+      "confidence": 0.3971121311187744
+    }
+  },
+  {
+    "text": "What's the delivery time for international orders?",
+    "intent": "international_shipping",
+    "intent_prediction": {
+      "name": "delivery_time",
+      "confidence": 0.765049397945404
+    }
+  },
+  {
+    "text": "Do I have to pay customs fees?",
+    "intent": "international_shipping",
+    "intent_prediction": {
+      "name": "shipping_cost",
+      "confidence": 0.2359270453453064
+    }
+  },
+  {
+    "text": "What are your brand values?",
+    "intent": "brand_information",
+    "intent_prediction": {
+      "name": "discount_inquiries",
+      "confidence": 0.1856638491153717
+    }
+  },
+  {
+    "text": "Is there a VIP program for frequent shoppers?",
+    "intent": "loyalty_program",
+    "intent_prediction": {
+      "name": "shipping_information",
+      "confidence": 0.25922566652297974
+    }
+  },
+  {
+    "text": "How can I create a capsule wardrobe?",
+    "intent": "style_advice",
+    "intent_prediction": {
+      "name": "help",
+      "confidence": 0.17521387338638306
+    }
+  },
+  {
+    "text": "How do I dress for my age?",
+    "intent": "style_advice",
+    "intent_prediction": {
+      "name": "size_guide",
+      "confidence": 0.1646740734577179
+    }
+  },
+  {
+    "text": "I'm looking for a specific piece of clothing",
+    "intent": "product_search",
+    "intent_prediction": {
+      "name": "exchange_process",
+      "confidence": 0.14459411799907684
+    }
+  },
+  {
+    "text": "Can you describe this item to me?",
+    "intent": "product_information",
+    "intent_prediction": {
+      "name": "care_instructions",
+      "confidence": 0.39286160469055176
+    }
+  },
+  {
+    "text": "What's the current price for this product?",
+    "intent": "product_price",
+    "intent_prediction": {
+      "name": "care_instructions",
+      "confidence": 0.4369100332260132
+    }
+  },
+  {
+    "text": "I need help finding something to wear",
+    "intent": "product_recommendations",
+    "intent_prediction": {
+      "name": "exchange_process",
+      "confidence": 0.18885309994220734
+    }
+  },
+  {
+    "text": "What goes well with this item?",
+    "intent": "product_recommendations",
+    "intent_prediction": {
+      "name": "style_advice",
+      "confidence": 0.9470434784889221
+    }
+  },
+  {
+    "text": "What sizes are available for this item?",
+    "intent": "size_availability",
+    "intent_prediction": {
+      "name": "product_information",
+      "confidence": 0.8350180387496948
+    }
+  },
+  {
+    "text": "Do you have this in blue?",
+    "intent": "color_options",
+    "intent_prediction": {
+      "name": "size_availability",
+      "confidence": 0.39013442397117615
+    }
+  },
+  {
+    "text": "I want to know about my recent order",
+    "intent": "order_status",
+    "intent_prediction": {
+      "name": "order_tracking",
+      "confidence": 0.9172465801239014
+    }
+  },
+  {
+    "text": "Can you give me tracking information?",
+    "intent": "order_tracking",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.2712249159812927
+    }
+  },
+  {
+    "text": "Can I add items to my existing order?",
+    "intent": "order_modification",
+    "intent_prediction": {
+      "name": "wishlist_management",
+      "confidence": 0.4249759912490845
+    }
+  },
+  {
+    "text": "I want to remove an item from my order",
+    "intent": "order_modification",
+    "intent_prediction": {
+      "name": "order_cancellation",
+      "confidence": 0.5501562356948853
+    }
+  },
+  {
+    "text": "What information do I need to make a return?",
+    "intent": "return_process",
+    "intent_prediction": {
+      "name": "return_policy",
+      "confidence": 0.361370712518692
+    }
+  },
+  {
+    "text": "How long do I have to make an exchange?",
+    "intent": "exchange_process",
+    "intent_prediction": {
+      "name": "return_policy",
+      "confidence": 0.6272170543670654
+    }
+  },
+  {
+    "text": "Are there any current discounts?",
+    "intent": "discount_inquiries",
+    "intent_prediction": {
+      "name": "sale_inquiries",
+      "confidence": 0.8103747367858887
+    }
+  },
+  {
+    "text": "Are there any special offers available?",
+    "intent": "discount_inquiries",
+    "intent_prediction": {
+      "name": "help",
+      "confidence": 0.5662872791290283
+    }
+  },
+  {
+    "text": "I can't sign in to my account, what should I do?",
+    "intent": "account_login",
+    "intent_prediction": {
+      "name": "password_reset",
+      "confidence": 0.26546555757522583
+    }
+  },
+  {
+    "text": "Can I rate the customer service I received?",
+    "intent": "feedback",
+    "intent_prediction": {
+      "name": "customer_service_contact",
+      "confidence": 0.5292775630950928
+    }
+  },
+  {
+    "text": "Do you respond to customer feedback?",
+    "intent": "feedback",
+    "intent_prediction": {
+      "name": "customer_service_contact",
+      "confidence": 0.7880891561508179
+    }
+  },
+  {
+    "text": "Can you provide maintenance tips for this product?",
+    "intent": "care_instructions",
+    "intent_prediction": {
+      "name": "feedback",
+      "confidence": 0.1733250468969345
+    }
+  },
+  {
+    "text": "What's the fabric composition of this item?",
+    "intent": "material_information",
+    "intent_prediction": {
+      "name": "product_information",
+      "confidence": 0.29516369104385376
+    }
+  },
+  {
+    "text": "Where can I find your sale items?",
+    "intent": "sale_inquiries",
+    "intent_prediction": {
+      "name": "promo_code_application",
+      "confidence": 0.10474026948213577
+    }
+  },
+  {
+    "text": "How often do you update your inventory?",
+    "intent": "new_arrivals",
+    "intent_prediction": {
+      "name": "return_process",
+      "confidence": 0.13999523222446442
+    }
+  },
+  {
+    "text": "Where can I find your latest collections?",
+    "intent": "new_arrivals",
+    "intent_prediction": {
+      "name": "product_search",
+      "confidence": 0.21971504390239716
+    }
+  },
+  {
+    "text": "Do you have any recycling programs?",
+    "intent": "sustainability_practices",
+    "intent_prediction": {
+      "name": "loyalty_program",
+      "confidence": 0.3789689540863037
+    }
+  },
+  {
+    "text": "What's your policy on wholesale purchases?",
+    "intent": "bulk_orders",
+    "intent_prediction": {
+      "name": "exchange_process",
+      "confidence": 0.11794283986091614
+    }
+  },
+  {
+    "text": "How much does shipping cost to [country name]?",
+    "intent": "international_shipping",
+    "intent_prediction": {
+      "name": "delivery_time",
+      "confidence": 0.33083343505859375
+    }
+  },
+  {
+    "text": "Where can I find your social media handles?",
+    "intent": "social_media_channels",
+    "intent_prediction": {
+      "name": "promo_code_application",
+      "confidence": 0.16100069880485535
+    }
+  },
+  {
+    "text": "What's trendy this season?",
+    "intent": "style_advice",
+    "intent_prediction": {
+      "name": "product_recommendations",
+      "confidence": 0.5853503346443176
+    }
+  },
+  {
+    "text": "What materials is this made from?",
+    "intent": "product_information",
+    "intent_prediction": {
+      "name": "material_information",
+      "confidence": 0.8713504076004028
+    }
+  },
+  {
+    "text": "Is there a discount on this product?",
+    "intent": "product_price",
+    "intent_prediction": {
+      "name": "discount_inquiries",
+      "confidence": 0.4545539617538452
+    }
+  },
+  {
+    "text": "How does this compare to a similar product?",
+    "intent": "product_comparison",
+    "intent_prediction": {
+      "name": "product_search",
+      "confidence": 0.20722158253192902
+    }
+  },
+  {
+    "text": "Show me some outfit ideas",
+    "intent": "product_recommendations",
+    "intent_prediction": {
+      "name": "style_advice",
+      "confidence": 0.6124601364135742
+    }
+  },
+  {
+    "text": "Do you ship to PO boxes?",
+    "intent": "shipping_information",
+    "intent_prediction": {
+      "name": "international_shipping",
+      "confidence": 0.21703051030635834
+    }
+  },
+  {
+    "text": "Can you help me with sizing?",
+    "intent": "size_guide",
+    "intent_prediction": {
+      "name": "custom_tailoring",
+      "confidence": 0.16983754932880402
+    }
+  },
+  {
+    "text": "How long do I have to return an item?",
+    "intent": "return_policy",
+    "intent_prediction": {
+      "name": "return_process",
+      "confidence": 0.8517581820487976
+    }
+  },
+  {
+    "text": "What payment methods do you accept?",
+    "intent": "payment_methods",
+    "intent_prediction": {
+      "name": "payment_issues",
+      "confidence": 0.2933318614959717
+    }
+  },
+  {
+    "text": "Do you accept credit cards?",
+    "intent": "payment_methods",
+    "intent_prediction": {
+      "name": "payment_issues",
+      "confidence": 0.4199141263961792
+    }
+  },
+  {
+    "text": "Is there a sale going on?",
+    "intent": "discount_inquiries",
+    "intent_prediction": {
+      "name": "sale_inquiries",
+      "confidence": 0.7033354043960571
+    }
+  },
+  {
+    "text": "What information do I need to sign up?",
+    "intent": "account_creation",
+    "intent_prediction": {
+      "name": "social_media_channels",
+      "confidence": 0.22945453226566315
+    }
+  },
+  {
+    "text": "Is there a way to suggest improvements to your website?",
+    "intent": "feedback",
+    "intent_prediction": {
+      "name": "password_reset",
+      "confidence": 0.09999236464500427
+    }
+  },
+  {
+    "text": "How should I store this item?",
+    "intent": "care_instructions",
+    "intent_prediction": {
+      "name": "product_availability",
+      "confidence": 0.5292382836341858
+    }
+  },
+  {
+    "text": "What materials is this product made of?",
+    "intent": "material_information",
+    "intent_prediction": {
+      "name": "product_information",
+      "confidence": 0.8420413732528687
+    }
+  },
+  {
+    "text": "Can you tell me about your most recent products?",
+    "intent": "new_arrivals",
+    "intent_prediction": {
+      "name": "sale_inquiries",
+      "confidence": 0.7618201375007629
+    }
+  },
+  {
+    "text": "Are your products environmentally friendly?",
+    "intent": "sustainability_practices",
+    "intent_prediction": {
+      "name": "material_information",
+      "confidence": 0.9706649780273438
+    }
+  },
+  {
+    "text": "Do you offer discounts for large orders?",
+    "intent": "bulk_orders",
+    "intent_prediction": {
+      "name": "discount_inquiries",
+      "confidence": 0.6440334916114807
+    }
+  },
+  {
+    "text": "Do you have special pricing for corporate orders?",
+    "intent": "bulk_orders",
+    "intent_prediction": {
+      "name": "sustainability_practices",
+      "confidence": 0.2518399953842163
+    }
+  },
+  {
+    "text": "Which countries do you deliver to?",
+    "intent": "international_shipping",
+    "intent_prediction": {
+      "name": "color_options",
+      "confidence": 0.619962215423584
+    }
+  },
+  {
+    "text": "Is there a Twitter account for your brand?",
+    "intent": "social_media_channels",
+    "intent_prediction": {
+      "name": "brand_information",
+      "confidence": 0.544481098651886
+    }
+  },
+  {
+    "text": "Can you share some company history?",
+    "intent": "brand_information",
+    "intent_prediction": {
+      "name": "exchange_process",
+      "confidence": 0.37909361720085144
+    }
+  },
+  {
+    "text": "What colors are in fashion right now?",
+    "intent": "style_advice",
+    "intent_prediction": {
+      "name": "color_options",
+      "confidence": 0.8731361031532288
+    }
+  },
+  {
+    "text": "What sizes are available for this product?",
+    "intent": "product_information",
+    "intent_prediction": {
+      "name": "size_availability",
+      "confidence": 0.917972207069397
+    }
+  },
+  {
+    "text": "Is this sold out?",
+    "intent": "product_availability",
+    "intent_prediction": {
+      "name": "store_locations",
+      "confidence": 0.250468909740448
+    }
+  },
+  {
+    "text": "Can you tell me the price?",
+    "intent": "product_price",
+    "intent_prediction": {
+      "name": "sale_inquiries",
+      "confidence": 0.18359772861003876
+    }
+  },
+  {
+    "text": "What's the difference between these two products?",
+    "intent": "product_comparison",
+    "intent_prediction": {
+      "name": "product_information",
+      "confidence": 0.21882037818431854
+    }
+  },
+  {
+    "text": "Can you suggest some products for me?",
+    "intent": "product_recommendations",
+    "intent_prediction": {
+      "name": "care_instructions",
+      "confidence": 0.22511720657348633
+    }
+  },
+  {
+    "text": "Do you offer international shipping?",
+    "intent": "shipping_information",
+    "intent_prediction": {
+      "name": "international_shipping",
+      "confidence": 0.3794441819190979
+    }
+  },
+  {
+    "text": "What size should I order?",
+    "intent": "size_guide",
+    "intent_prediction": {
+      "name": "size_availability",
+      "confidence": 0.37750017642974854
+    }
+  }
+]

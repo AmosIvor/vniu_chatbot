@@ -1,0 +1,381 @@
+version: "3.1"
+nlu:
+- intent: bot_challenge
+  examples: |
+    - Are you a human?
+    - Am I talking to a bot?
+    - Am I talking to a human?
+- intent: thank
+  examples: |
+    - Thanks
+    - Thank you so much
+    - Thanks for your help
+    - I appreciate it
+    - Thank you
+- intent: help
+  examples: |
+    - Can you guide me?
+    - I need help
+    - What can you do?
+    - I'm not sure what to do
+    - What are your capabilities?
+    - Can you assist me?
+- intent: order_status
+  examples: |
+    - Can you check my order status?
+    - What's the status of my order?
+    - I want to know about my recent order
+    - Is my order still pending?
+    - Has my order been processed?
+    - Has my order been shipped yet?
+- intent: order_tracking
+  examples: |
+    - Is there a way to see where my order is?
+    - How can I track my order?
+    - What's the tracking number for my order?
+    - Can you give me tracking information?
+    - How do I follow my package?
+- intent: order_cancellation
+  examples: |
+    - What's the process for cancelling an order?
+    - I need to cancel my order immediately
+    - I want to cancel my recent purchase
+    - Can you help me cancel my order?
+    - Can I cancel an order I just placed?
+    - Is it possible to cancel my order?
+- intent: order_modification
+  examples: |
+    - I want to remove an item from my order
+    - Can I add items to my existing order?
+    - I need to update my shipping address
+    - How do I modify my order?
+    - Can I change my order?
+- intent: return_policy
+  examples: |
+    - Do you accept returns without tags?
+    - Is there a restocking fee for returns?
+    - What's your return policy?
+    - Can I return a sale item?
+    - How long do I have to return an item?
+    - Are returns free?
+- intent: return_process
+  examples: |
+    - Can you guide me through a return?
+    - How long does the return process take?
+    - What information do I need to make a return?
+    - Do I need a return authorization?
+    - Where do I send my return?
+    - What's the process for returning?
+- intent: exchange_process
+  examples: |
+    - Do you charge for exchanges?
+    - What's your exchange policy?
+    - How can I exchange an item?
+    - How long do I have to make an exchange?
+    - Can you walk me through the exchange process?
+- intent: delivery_time
+  examples: |
+    - How long will it take to receive my order?
+    - How long does international shipping take?
+    - What's the estimated delivery time?
+    - Can I get an estimated delivery date?
+    - Do you offer next-day delivery?
+    - What's the timeframe for standard shipping?
+- intent: payment_methods
+  examples: |
+    - Do you offer any buy now, pay later options?
+    - Can I pay with PayPal?
+    - Is it possible to pay with Apple Pay?
+    - Is it safe to enter my credit card information?
+    - What payment methods do you accept?
+- intent: payment_issues
+  examples: |
+    - Can you check if there's an issue with my payment?
+    - I'm having trouble completing my purchase
+    - What should I do if my transaction fails?
+    - There's an error with my payment, can you help?
+    - My payment was declined, what should I do?
+    - Why isn't my credit card working?
+- intent: discount_inquiries
+  examples: |
+    - Can I get a discount for bulk orders?
+    - Is there a sale going on?
+    - Do you offer student discounts?
+    - Are there any special offers available?
+    - Are there any current discounts?
+    - Do you have any promotional deals?
+- intent: promo_code_application
+  examples: |
+    - Do promo codes work on sale items?
+    - Can I use multiple promo codes?
+    - Where do I enter the coupon code?
+    - My promo code isn't working, what should I do?
+    - Is there a minimum purchase for using promo codes?
+- intent: account_creation
+  examples: |
+    - What are the benefits of having an account?
+    - Can I create an account using my social media profile?
+    - How do I create an account?
+    - Is it necessary to create an account to make a purchase?
+    - How long does it take to set up an account?
+    - Is there a fee for creating an account?
+- intent: account_login
+  examples: |
+    - I can't sign in to my account, what should I do?
+    - I forgot my username, how can I log in?
+    - Is there a mobile app I can use to log in?
+    - Why am I being logged out automatically?
+    - Can I log in using my email address?
+- intent: wishlist_management
+  examples: |
+    - How long do items stay in my wishlist?
+    - Where can I find my saved items?
+    - How do I add items to my wishlist?
+    - Will I be notified if an item in my wishlist goes on sale?
+    - Can I share my wishlist with others?
+    - Can I move items from my wishlist to my cart?
+- intent: feedback
+  examples: |
+    - Can I rate the customer service I received?
+    - Is there a way to suggest improvements to your website?
+    - Do you respond to customer feedback?
+    - How do you handle negative reviews?
+    - How can I leave a review for a product?
+    - Where do I submit feedback about my shopping experience?
+- intent: customer_service_contact
+  examples: |
+    - Do you have live chat support?
+    - How can I contact customer service?
+    - Is there an online form for customer inquiries?
+    - Can I email your support team?
+    - What are your customer service hours?
+- intent: store_locations
+  examples: |
+    - Where are your physical stores located?
+    - What are the store hours?
+    - Is there a store locator tool on your website?
+    - Do all your stores carry the same products?
+    - Can I pick up my online order in-store?
+    - Do you have a store near me?
+- intent: care_instructions
+  examples: |
+    - How should I store this item?
+    - Can I machine wash this?
+    - What are the washing instructions for this item?
+    - Is this product dry clean only?
+    - How do I care for this product?
+- intent: material_information
+  examples: |
+    - What's the fabric composition of this item?
+    - Is this product vegan?
+    - What materials is this product made of?
+    - Are any of your materials ethically sourced?
+    - Is this product made from sustainable materials?
+    - Do you use organic materials?
+- intent: gift_options
+  examples: |
+    - How do I mark an item as a gift?
+    - Can I send a gift directly to the recipient?
+    - Is there an extra charge for gift services?
+    - Do you offer gift wrapping?
+    - Can I add a gift message to my order?
+    - Are there any special packaging options for gifts?
+- intent: gift_cards
+  examples: |
+    - Can I check my gift card balance?
+    - Do your gift cards expire?
+    - Can I use multiple gift cards for one purchase?
+    - How can I purchase a gift card?
+    - How do I redeem a gift card?
+- intent: sale_inquiries
+  examples: |
+    - Are there any sales going on right now?
+    - Are there any special discounts this week?
+    - Where can I find your sale items?
+    - Do you have any clearance items?
+    - When is your next sale?
+    - Can you tell me about current promotions?
+- intent: new_arrivals
+  examples: |
+    - Do you have a 'New Arrivals' section?
+    - When do you get new items in stock?
+    - How often do you update your inventory?
+    - Where can I find your latest collections?
+    - What are your newest products?
+- intent: sustainability_practices
+  examples: |
+    - Are your products environmentally friendly?
+    - Do you have any recycling programs?
+    - What's your company's stance on sustainability?
+    - Do you use sustainable packaging?
+    - Are your manufacturing processes sustainable?
+    - What are your eco-friendly initiatives?
+- intent: custom_tailoring
+  examples: |
+    - Can you adjust the length of pants or sleeves?
+    - Do you offer custom tailoring services?
+    - Do you have made-to-measure options?
+    - Can I get my clothes altered?
+    - How much does it cost to tailor an item?
+    - Is it possible to customize the fit of your clothes?
+- intent: bulk_orders
+  examples: |
+    - Do you have special pricing for corporate orders?
+    - Can I place a bulk order for my business?
+    - Is there a minimum quantity for bulk orders?
+    - Can you handle large volume orders?
+    - Do you offer discounts for large orders?
+- intent: international_shipping
+  examples: |
+    - Is tracking available for international shipments?
+    - How much does shipping cost to [country name]?
+    - Can I return items if I'm overseas?
+    - What's the delivery time for international orders?
+    - Do I have to pay customs fees?
+    - Do you ship internationally?
+- intent: social_media_channels
+  examples: |
+    - What social media platforms do you use?
+    - Do you post content on TikTok?
+    - Where can I find your social media handles?
+    - Can I follow you on Instagram?
+    - Is there a Twitter account for your brand?
+- intent: password_reset
+  examples: |
+    - I forgot my password
+    - Where can I change my password?
+    - Need help resetting my password
+    - Password recovery options
+    - Can't log in to my account
+    - How do I reset my password?
+- intent: brand_information
+  examples: |
+    - Can you share some company history?
+    - How long has your company been in business?
+    - Who founded your company?
+    - What's the story behind your brand?
+    - Tell me about your company
+    - What are your brand values?
+- intent: loyalty_program
+  examples: |
+    - What can I redeem loyalty points for?
+    - How do I sign up for your rewards program?
+    - What are the benefits of joining your loyalty program?
+    - Can I earn points on my purchases?
+    - Is there a VIP program for frequent shoppers?
+- intent: product_search
+  examples: |
+    - Is there a way to filter search results?
+    - How do I search for a specific product?
+    - How can I search for products on your website?
+    - Show me how to search for items
+    - I'm looking for a specific piece of clothing
+    - Can you help me find a particular item?
+- intent: product_information
+  examples: |
+    - What materials is this made from?
+    - Can you tell me more about this product?
+    - Does this come in different colors?
+    - Can you describe this item to me?
+    - What are the features of this item?
+- intent: product_availability
+  examples: |
+    - When will this be back in stock?
+    - Is this item in stock?
+    - Can I get this in my size?
+    - Are there any left of this item?
+    - Do you have this product available?
+    - Is this sold out?
+- intent: product_price
+  examples: |
+    - Are there any ongoing sales?
+    - What's the current price for this product?
+    - Can you tell me the price?
+    - How much does this cost?
+    - Is there a discount on this product?
+    - What's the price of this item?
+- intent: product_comparison
+  examples: |
+    - Which one is better?
+    - Can you show me a side-by-side comparison?
+    - What are the pros and cons of each?
+    - How does this compare to a similar product?
+    - What's the difference between these two products?
+- intent: product_recommendations
+  examples: |
+    - Show me some outfit ideas
+    - What are your best-selling items?
+    - Can you suggest some products for me?
+    - What goes well with this item?
+    - What's popular right now?
+    - What do you recommend?
+- intent: shipping_information
+  examples: |
+    - Is there a way to track my shipment?
+    - What are your shipping options?
+    - Do you ship to PO boxes?
+    - Can I choose a specific shipping method?
+    - Which courier do you use for shipping?
+- intent: shipping_cost
+  examples: |
+    - Is there a minimum order for free shipping?
+    - What's the cost for express delivery?
+    - How are shipping costs calculated?
+    - How much is shipping?
+    - Do you charge extra for international shipping?
+    - Can you tell me the shipping fee for my order?
+- intent: size_guide
+  examples: |
+    - How do your sizes run?
+    - Where is the size chart?
+    - How do I find my size?
+    - What size should I order?
+    - Are your sizes true to fit?
+    - Can you help me with sizing?
+- intent: size_availability
+  examples: |
+    - Is size M in stock?
+    - What sizes are available for this item?
+    - Is this available in XL?
+    - Can you check if you have my size?
+    - Do you have this in my size?
+- intent: color_options
+  examples: |
+    - Can I see other color variations?
+    - Is this available in different colors?
+    - What colors does this come in?
+    - Are there other color options?
+    - Show me all available colors
+    - Do you have this in blue?
+- intent: goodbye
+  examples: |
+    - Bye
+    - See you later
+    - Bye bye
+    - Cee you later
+    - Good night
+    - See you around
+    - Goodbye
+    - Have a nice day
+- intent: style_advice
+  examples: |
+    - What's trendy this season?
+    - I need fashion advice for [occasion]
+    - What colors are in fashion right now?
+    - How do I dress for my age?
+    - Can you help me choose an outfit?
+    - How can I create a capsule wardrobe?
+    - Give me style tips for [body type]
+    - How should I style [product name]?
+- intent: greet
+  examples: |
+    - Good afternoon
+    - Goodmorning
+    - Good evening
+    - Hi
+    - Good morning
+    - Moin
+    - Goodevening
+    - Hello
+    - Hey
+    - Hello there

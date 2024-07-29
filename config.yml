@@ -9,8 +9,31 @@ assistant_id: 20240520-122407-serious-jeep
 language: en
 
 # Configure pipeline
+# pipeline:
+#   - name: WhitespaceTokenizer
+#   - name: RegexFeaturizer
+#   - name: LexicalSyntacticFeaturizer
+#   - name: CountVectorsFeaturizer
+#   - name: CountVectorsFeaturizer
+#     analyzer: char_wb
+#     min_ngram: 1
+#     max_ngram: 4
+#   - name: DIETClassifier
+#     epochs: 100
+#     constrain_similarities: true
+#   - name: EntitySynonymMapper
+#   - name: ResponseSelector
+#     epochs: 100
+#   - name: FallbackClassifier
+#     threshold: 0.8
+#     ambiguity_threshold: 0.1
+
 pipeline:
   - name: WhitespaceTokenizer
+  - name: LanguageModelFeaturizer
+    model_name: "bert"
+    model_weights: "rasa/LaBSE"
+    cache_dir: null
   - name: RegexFeaturizer
   - name: LexicalSyntacticFeaturizer
   - name: CountVectorsFeaturizer
@@ -19,11 +42,11 @@ pipeline:
     min_ngram: 1
     max_ngram: 4
   - name: DIETClassifier
-    epochs: 100
+    epochs: 300
     constrain_similarities: true
   - name: EntitySynonymMapper
   - name: ResponseSelector
-    epochs: 100
+    epochs: 300
   - name: FallbackClassifier
     threshold: 0.8
     ambiguity_threshold: 0.1
