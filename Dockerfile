@@ -13,17 +13,17 @@ COPY requirements_docker.txt .
 RUN pip install -r requirements_docker.txt
 
 # Create the models directory and set permissions
-USER root
-RUN rm -rf /app/models
-RUN rm -rf /app/venv
+# USER root
+# RUN rm -rf /app/models
+# RUN rm -rf /app/venv
 
 # Train the Rasa model
-RUN rasa train
+# RUN rasa train
 
 # Specify volumes
-VOLUME /app
-VOLUME /app/data
-VOLUME /app/models
+# VOLUME /app
+# VOLUME /app/data
+# VOLUME /app/models
 
 # Set user and command for running Rasa
 USER 1001

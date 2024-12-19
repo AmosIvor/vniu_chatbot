@@ -1,20 +1,26 @@
-version: "3"
 services:
-  rasa:
-    container_name: "rasa_server"
-    user: root
+  rasa_server:
+    container_name: vniu-rasa
     build:
       context: .
-    volumes:
-      - "./:/app"
+      dockerfile: Dockerfile
     ports:
-      - "5005:5005"
-  action_server:
-    container_name: "action_server"
+      - 5005:5005
+    networks:
+      - test_work
+
+  rasa_action:
+    container_name: vniu-action
     build:
       context: actions
+      dockerfile: Dockerfile
     volumes:
-      - ./actions:/app/actions
       - ./data:/app/data
     ports:
       - 5055:5055
+    networks:
+      - test_work
+
+networks:
+  test_work:
+    driver: bridge
