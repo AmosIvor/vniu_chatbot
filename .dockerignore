@@ -4,5 +4,4 @@ actions/__pycache__/
 responses/__pycache__/
 .config/*
 .keras/*
-.cache/*
 .git/*

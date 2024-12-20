@@ -33,7 +33,7 @@ pipeline:
   - name: LanguageModelFeaturizer
     model_name: "bert"
     model_weights: "rasa/LaBSE"
-    cache_dir: null
+    cache_dir: ".cache"
   - name: RegexFeaturizer
   - name: LexicalSyntacticFeaturizer
   - name: CountVectorsFeaturizer
