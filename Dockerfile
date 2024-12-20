@@ -26,7 +26,7 @@ RUN pip install -r requirements_docker.txt
 # VOLUME /app/models
 
 # Set user and command for running Rasa
-USER 1001
+USER root
 
 CMD ["run","-m","/app/models","--enable-api","--cors","*","--debug" ,"--endpoints", "endpoints.yml", "--debug"]
 
