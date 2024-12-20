@@ -8,4 +8,4 @@ USER root
 
 EXPOSE 5055
 
-USER 1001
+USER root
