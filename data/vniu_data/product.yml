@@ -60,3 +60,68 @@ nlu:
       - What goes well with this item?
       - Show me some outfit ideas
       - What are your best-selling items?
+
+  - intent: product_search_with_category_and_colour
+    examples: |
+      - I want to find some [blue](colour) [tall](category)
+      - Show me [red](colour) [polo](category)
+      - Do you have any [black](colour) [cloth](category)?
+      - I need a [white](colour) [t-shirt](category)
+      - Find me a [green](colour) [shoe](category)
+      - Are there any [yellow](colour) [jeans](category)?
+      - I am looking for a [pink](colour) [baggy](category)
+      - Can you show me [brown](colour) [glass](category)?
+      - Do you have [grey](colour) [hoodie](category)?
+      - Find me [purple](colour) [vest](category)
+      - I want to find some [shirt](category) that have [blue](colour)
+      - Do you have any [shorts](category) with [black](colour)?
+      - Show me [tall](category) in [white](colour)
+      - I need a [cloth](category) that is [green](colour)
+      - Are there any [polo](category) in [yellow](colour)?
+      - Find me [t-shirt](category) with [brown](colour)
+
+  - intent: product_search_with_image_and_colour
+    examples: |
+      - Find me something similar to this image, but in [blue](colour) ; [https://m.media-amazon.com/images/I/91V12ufIXRL._AC_UY1100_.jpg](image_product)
+      - I like this style, do you have it in [red](colour) ; [https://m.media-amazon.com/images/I/91V12ufIXRL._AC_UY1100_.jpg](image_product)
+      - Show me a product similar to this, but I want it in [black](colour) ; [https://m.media-amazon.com/images/I/91V12ufIXRL._AC_UY1100_.jpg](image_product)
+      - Do you have anything like this in [white](colour) ; [https://m.media-amazon.com/images/I/91V12ufIXRL._AC_UY1100_.jpg](image_product)
+      - I want to buy something that looks like this but in [green](colour) ; [https://m.media-amazon.com/images/I/91V12ufIXRL._AC_UY1100_.jpg](image_product)
+      - Can you find me a product similar to this in [yellow](colour) ; [https://m.media-amazon.com/images/I/91V12ufIXRL._AC_UY1100_.jpg](image_product)
+      - I like this design, but I need it in [pink](colour) ; [https://m.media-amazon.com/images/I/91V12ufIXRL._AC_UY1100_.jpg](image_product)
+      - Do you have this in [brown](colour) ; [https://m.media-amazon.com/images/I/91V12ufIXRL._AC_UY1100_.jpg](image_product)
+      - I want a similar style as this, but in [grey](colour) ; [https://m.media-amazon.com/images/I/91V12ufIXRL._AC_UY1100_.jpg](image_product)
+      - This is nice! Can you show me a [purple](colour) one? ; [https://m.media-amazon.com/images/I/91V12ufIXRL._AC_UY1100_.jpg](image_product)
+      - Show me something like this but in [blue](colour) ; [https://m.media-amazon.com/images/I/91V12ufIXRL._AC_UY1100_.jpg](image_product)
+      - I need a similar product to this, but in [red](colour) ; [https://m.media-amazon.com/images/I/91V12ufIXRL._AC_UY1100_.jpg](image_product)
+      - Do you have a version of this in [black](colour) ; [https://m.media-amazon.com/images/I/91V12ufIXRL._AC_UY1100_.jpg](image_product)
+      - Find me something like this, but I prefer [white](colour) ; [https://m.media-amazon.com/images/I/91V12ufIXRL._AC_UY1100_.jpg](image_product)
+      - This is close, but I want it in [green](colour) ; [https://m.media-amazon.com/images/I/91V12ufIXRL._AC_UY1100_.jpg](image_product)
+
+  - lookup: category
+    examples: |
+      - tall
+      - polo
+      - cloth
+      - t-shirt
+      - shorts
+      - shoe
+      - shirt
+      - jeans
+      - baggy
+      - glass
+      - hoodie
+      - vest
+
+  - lookup: colour
+    examples: |
+      - blue
+      - red
+      - black
+      - white
+      - green
+      - yellow
+      - pink
+      - brown
+      - grey
+      - purple

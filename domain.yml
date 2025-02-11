@@ -50,6 +50,15 @@ intents:
   - bulk_orders
   - international_shipping
   - social_media_channels
+  - location_info
+  - product_search_with_category_and_colour
+  - product_search_with_image_and_colour
+
+entities:
+  - category
+  - colour
+  - image_product
+  - city
 
 responses:
   utter_greet:
@@ -207,9 +216,14 @@ responses:
   utter_size_availability:
     - text: "I can certainly check size availability for you. Could you please specify the product you're interested in and the size you're looking for? Once you provide that information, I'll be able to tell you if it's in stock or when we expect to restock if it's currently unavailable."
 
+  utter_location_info:
+    - text: "Our main office is located at 43 Tan Lap, Dong Hoa, Di An, Binh Duong."
+
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
 
 actions:
   - action_two_stage_fallback
+  - action_product_search_with_category_and_colour
+  - action_product_search_with_image_and_colour

@@ -293,3 +293,47 @@ nlu:
       - Give me style tips for [body type]
       - How do I dress for my age?
       - What colors are in fashion right now?
+
+  - intent: location_info
+    examples: |
+      - Where is your store located?
+      - Can you tell me about your store locations?
+      - Where can I find your nearest branch?
+      - Do you have a store in [Binh Duong](city)?
+      - What is the address of your company?
+      - Where is your headquarters?
+      - Do you have locations in [Ho Chi Minh](city)?
+      - How many branches do you have?
+      - Where are your stores in [HCM](city)?
+      - Is there a store near me?
+      - Give me directions to your store.
+      - What is your store's opening time?
+      - Where can I visit your company in person?
+      - Where is your company located?
+      - Where is your main office?
+      - What is the location of your headquarters?
+      - Do you have a showroom in [Binh Dinh](city)?
+      - Can you provide a list of your store locations?
+      - Where is your company based?
+      - Do you have international stores?
+      - Which countries have your stores?
+      - Are there any stores in [Ha Noi](city)?
+      - What are your business hours at the [Da Nang](city) branch?
+      - Can I pick up an order from your store?
+
+  - lookup: city
+    examples: |
+      - Da Nang
+      - HCM
+      - Ho Chi Minh
+      - Ha Noi
+      - Hue
+      - Binh Dinh
+      - Binh Duong
+      - Ca Mau
+      - Phu Yen
+      - Vung Tau
+      - Khanh Hoa
+      - Binh Thuan
+      - Ninh Thuan
+      - Ben Tre

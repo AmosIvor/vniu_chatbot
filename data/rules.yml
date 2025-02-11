@@ -247,3 +247,18 @@ rules:
     steps:
       - intent: social_media_channels
       - action: utter_social_media_channels
+
+  - rule: Say location information
+    steps:
+      - intent: location_info
+      - action: utter_location_info
+
+  - rule: Say result of searching product with category and colour
+    steps:
+      - intent: product_search_with_category_and_colour
+      - action: action_product_search_with_category_and_colour
+
+  - rule: Say result of searching product with image and colour
+    steps:
+      - intent: product_search_with_image_and_colour
+      - action: action_product_search_with_image_and_colour

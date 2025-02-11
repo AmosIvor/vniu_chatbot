@@ -29,24 +29,47 @@ language: en
 #     ambiguity_threshold: 0.1
 
 pipeline:
+  # Tokenization
   - name: WhitespaceTokenizer
-  - name: LanguageModelFeaturizer
-    model_name: "bert"
-    model_weights: "rasa/LaBSE"
-    cache_dir: ".cache"
+
+  # Featurization
   - name: RegexFeaturizer
   - name: LexicalSyntacticFeaturizer
   - name: CountVectorsFeaturizer
+    analyzer: word
+    min_ngram: 1
+    max_ngram: 2
   - name: CountVectorsFeaturizer
     analyzer: char_wb
     min_ngram: 1
     max_ngram: 4
+  - name: LanguageModelFeaturizer
+    model_name: "bert"
+    model_weights: "rasa/LaBSE"
+    cache_dir: ".cache"
+
+  # Classification
   - name: DIETClassifier
-    epochs: 300
+    epochs: 100
     constrain_similarities: true
+    embedding_dimension: 128
+    learning_rate: 0.001
+    dropout_rate: 0.2
+    batch_size: 16
+    hidden_layers_sizes:
+      text: [256, 128]
+    number_of_transformer_layers: 2
+
+  # Entity handling
   - name: EntitySynonymMapper
+
+  # Response selection
   - name: ResponseSelector
-    epochs: 300
+    epochs: 100
+    learning_rate: 0.001
+    batch_size: 16
+
+  # Fallback
   - name: FallbackClassifier
     threshold: 0.8
     ambiguity_threshold: 0.1
